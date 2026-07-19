@@ -1,13 +1,10 @@
-Exit code: 0
-Wall time: 0.3 seconds
-Output:
 import { createCipheriv, pbkdf2Sync } from "node:crypto";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const OUTPUT = resolve(ROOT, "public", "data", "boloes.json");
+const OUTPUT = resolve(ROOT, "boloes.json");
 const API_PATH = "boloes/recuperar-boloes-disponiveis-link";
 const SALT = "forge.random.get";
 const WEB_ORIGIN = "https://www.loteriasonline.caixa.gov.br";

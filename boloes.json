@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-30T06:43:31.143Z",
+  "generatedAt": "2026-07-30T09:20:26.769Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -8,7 +8,7 @@
       "slug": "we",
       "name": "Casa Lotérica WE",
       "fetchedAt": "2026-07-30T06:43:32.699Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjs3Ozg1NjEzNzQwNDsxMDY3Mzs=",
@@ -407,7 +407,7 @@
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
       "fetchedAt": "2026-07-30T06:43:33.714Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjs3OzQyNjE2MzAwMTsxMDY3NTs=",
@@ -806,7 +806,7 @@
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
       "fetchedAt": "2026-07-30T06:43:33.215Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjs3OzgzMjQxMjgwNjsxMDY3Mjs=",

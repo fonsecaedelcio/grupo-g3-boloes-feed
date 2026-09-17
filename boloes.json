@@ -1,28 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T00:27:04.110Z",
+  "generatedAt": "2026-09-17T05:12:42.107Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-09-17T00:27:05.189Z",
+      "fetchedAt": "2026-09-17T05:12:43.532Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjs5OzQ5MDkzNjkwMTsxMDczMTs=",
-          "concurso": 3059,
-          "modalidade": "MEGA_SENA",
-          "premio": 102000000,
-          "valor": 22.68,
-          "apostas": 4,
-          "numeros": 7,
-          "disponiveis": 9,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjs5OzQ5MDkzNjkwNDsxMDczMTs=",
           "concurso": 2443,
@@ -48,6 +35,19 @@
           "total": 3,
           "cidade": "SAO PAULO",
           "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzQ5MDkzNjkwMTsxMDczMTs=",
+          "concurso": 3059,
+          "modalidade": "MEGA_SENA",
+          "premio": 102000000,
+          "valor": 22.68,
+          "apostas": 4,
+          "numeros": 7,
+          "disponiveis": 9,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-17T00:27:05.593Z",
+      "fetchedAt": "2026-09-17T05:12:43.983Z",
       "stale": false,
       "offers": [
         {
@@ -77,7 +77,7 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-09-17T00:27:05.390Z",
+      "fetchedAt": "2026-09-17T05:12:43.759Z",
       "stale": false,
       "offers": [
         {

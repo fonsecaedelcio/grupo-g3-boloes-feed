@@ -1,28 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T21:52:52.832Z",
+  "generatedAt": "2026-09-17T23:53:07.315Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-09-17T21:52:54.504Z",
+      "fetchedAt": "2026-09-17T23:53:10.761Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjs5OzQ5MDkzNjkwNDsxMDczMTs=",
-          "concurso": 2443,
-          "modalidade": "TIMEMANIA",
-          "premio": 14300000,
-          "valor": 15.77,
-          "apostas": 10,
-          "numeros": 10,
-          "disponiveis": 3,
-          "total": 3,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjs5OzU2ODQ1ODcwMTsxMDczMjs=",
           "concurso": 391,
@@ -50,19 +37,6 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzU2ODQ1ODcwNDsxMDczMjs=",
-          "concurso": 1300,
-          "modalidade": "DIA_DE_SORTE",
-          "premio": 100000,
-          "valor": 16.2,
-          "apostas": 3,
-          "numeros": 8,
-          "disponiveis": 5,
-          "total": 5,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
           "id": "MjAyNjs5OzU2ODQ1ODcwMjsxMDczMjs=",
           "concurso": 3010,
           "modalidade": "DUPLA_SENA",
@@ -74,19 +48,6 @@
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzU2ODQ1ODcwMzsxMDczMjs=",
-          "concurso": 3782,
-          "modalidade": "LOTOFACIL",
-          "premio": 5000000,
-          "valor": 15.15,
-          "apostas": 1,
-          "numeros": 16,
-          "disponiveis": 4,
-          "total": 5,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
         }
       ]
     },
@@ -94,7 +55,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-17T21:52:55.346Z",
+      "fetchedAt": "2026-09-17T23:53:13.813Z",
       "stale": false,
       "offers": [
         {
@@ -130,7 +91,7 @@
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
       "fetchedAt": "2026-09-17T21:52:54.924Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjs5OzQ3NDYxNDIwNjsxMDczMDs=",

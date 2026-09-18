@@ -1,15 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T03:08:21.522Z",
+  "generatedAt": "2026-09-18T08:18:34.337Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-09-18T03:08:23.659Z",
+      "fetchedAt": "2026-09-18T08:18:35.599Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjs5OzU2ODQ1ODcwMTsxMDczMjs=",
+          "concurso": 391,
+          "modalidade": "MAIS_MILIONARIA",
+          "premio": 96000000,
+          "valor": 15.23,
+          "apostas": 5,
+          "numeros": 6,
+          "disponiveis": 8,
+          "total": 8,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjs5OzU2ODQ1ODcwNTsxMDczMjs=",
           "concurso": 900,
@@ -35,19 +48,6 @@
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzU2ODQ1ODcwMTsxMDczMjs=",
-          "concurso": 391,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 96000000,
-          "valor": 15.23,
-          "apostas": 5,
-          "numeros": 6,
-          "disponiveis": 8,
-          "total": 8,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-18T03:08:26.303Z",
+      "fetchedAt": "2026-09-18T08:18:38.206Z",
       "stale": false,
       "offers": [
         {

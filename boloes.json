@@ -1,54 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T19:33:26.268Z",
+  "generatedAt": "2026-09-18T21:49:58.598Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-09-18T19:33:27.582Z",
+      "fetchedAt": "2026-09-18T21:49:59.680Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjs5OzY1MjQxOTE3MzsxMDczMzs=",
-          "concurso": 2444,
-          "modalidade": "TIMEMANIA",
-          "premio": 14600000,
-          "valor": 11.82,
-          "apostas": 10,
-          "numeros": 10,
-          "disponiveis": 4,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzU2ODQ1ODcwNTsxMDczMjs=",
-          "concurso": 900,
-          "modalidade": "SUPER_7",
-          "premio": 8300000,
-          "valor": 16.2,
-          "apostas": 5,
-          "numeros": 9,
-          "disponiveis": 5,
-          "total": 5,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzU2ODQ1ODcwMjsxMDczMjs=",
-          "concurso": 3010,
-          "modalidade": "DUPLA_SENA",
-          "premio": 4400000,
-          "valor": 11.34,
-          "apostas": 2,
-          "numeros": 7,
-          "disponiveis": 5,
-          "total": 5,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjs5OzU2ODQ1ODcwMTsxMDczMjs=",
           "concurso": 391,
@@ -59,19 +20,6 @@
           "numeros": 6,
           "disponiveis": 8,
           "total": 8,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzY1MjQxOTE3NDsxMDczMzs=",
-          "concurso": 1301,
-          "modalidade": "DIA_DE_SORTE",
-          "premio": 300000,
-          "valor": 16.2,
-          "apostas": 3,
-          "numeros": 8,
-          "disponiveis": 5,
-          "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -87,6 +35,45 @@
           "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzU2ODQ1ODcwMjsxMDczMjs=",
+          "concurso": 3010,
+          "modalidade": "DUPLA_SENA",
+          "premio": 4400000,
+          "valor": 11.34,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 3,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzY1MjQxOTE3MzsxMDczMzs=",
+          "concurso": 2444,
+          "modalidade": "TIMEMANIA",
+          "premio": 14600000,
+          "valor": 11.82,
+          "apostas": 10,
+          "numeros": 10,
+          "disponiveis": 4,
+          "total": 4,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzY1MjQxOTE3NDsxMDczMzs=",
+          "concurso": 1301,
+          "modalidade": "DIA_DE_SORTE",
+          "premio": 300000,
+          "valor": 16.2,
+          "apostas": 3,
+          "numeros": 8,
+          "disponiveis": 5,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
         }
       ]
     },
@@ -94,19 +81,19 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-18T19:33:28.053Z",
+      "fetchedAt": "2026-09-18T21:50:01.653Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjs5OzU4NDU5NjM3MzsxMDczMjs=",
-          "concurso": 900,
-          "modalidade": "SUPER_7",
-          "premio": 8300000,
-          "valor": 10.16,
-          "apostas": 10,
-          "numeros": 8,
-          "disponiveis": 8,
-          "total": 8,
+          "id": "MjAyNjs5OzY2OTg2NDY0MjsxMDczMzs=",
+          "concurso": 2444,
+          "modalidade": "TIMEMANIA",
+          "premio": 14600000,
+          "valor": 10.15,
+          "apostas": 15,
+          "numeros": 10,
+          "disponiveis": 7,
+          "total": 7,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -122,6 +109,45 @@
           "total": 10,
           "cidade": "SAO PAULO",
           "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzU4NDU5NjM3MzsxMDczMjs=",
+          "concurso": 900,
+          "modalidade": "SUPER_7",
+          "premio": 8300000,
+          "valor": 10.16,
+          "apostas": 10,
+          "numeros": 8,
+          "disponiveis": 4,
+          "total": 8,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzY2OTg2NDY0MTsxMDczMzs=",
+          "concurso": 3060,
+          "modalidade": "MEGA_SENA",
+          "premio": 28000000,
+          "valor": 13.5,
+          "apostas": 10,
+          "numeros": 6,
+          "disponiveis": 6,
+          "total": 6,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzY2OTg2NDY0MDsxMDczMzs=",
+          "concurso": 3060,
+          "modalidade": "MEGA_SENA",
+          "premio": 28000000,
+          "valor": 17.09,
+          "apostas": 3,
+          "numeros": 7,
+          "disponiveis": 10,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
         }
       ]
     },
@@ -129,7 +155,7 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-09-18T19:33:27.813Z",
+      "fetchedAt": "2026-09-18T21:49:59.956Z",
       "stale": false,
       "offers": [
         {

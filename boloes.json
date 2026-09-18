@@ -1,25 +1,38 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T17:03:18.833Z",
+  "generatedAt": "2026-09-18T19:33:26.268Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-09-18T17:03:21.457Z",
+      "fetchedAt": "2026-09-18T19:33:27.582Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjs5OzU2ODQ1ODcwMTsxMDczMjs=",
-          "concurso": 391,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 96000000,
-          "valor": 15.23,
+          "id": "MjAyNjs5OzY1MjQxOTE3MzsxMDczMzs=",
+          "concurso": 2444,
+          "modalidade": "TIMEMANIA",
+          "premio": 14600000,
+          "valor": 11.82,
+          "apostas": 10,
+          "numeros": 10,
+          "disponiveis": 4,
+          "total": 4,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzU2ODQ1ODcwNTsxMDczMjs=",
+          "concurso": 900,
+          "modalidade": "SUPER_7",
+          "premio": 8300000,
+          "valor": 16.2,
           "apostas": 5,
-          "numeros": 6,
-          "disponiveis": 8,
-          "total": 8,
+          "numeros": 9,
+          "disponiveis": 5,
+          "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -37,15 +50,41 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzU2ODQ1ODcwNTsxMDczMjs=",
-          "concurso": 900,
-          "modalidade": "SUPER_7",
-          "premio": 8300000,
-          "valor": 16.2,
+          "id": "MjAyNjs5OzU2ODQ1ODcwMTsxMDczMjs=",
+          "concurso": 391,
+          "modalidade": "MAIS_MILIONARIA",
+          "premio": 96000000,
+          "valor": 15.23,
           "apostas": 5,
-          "numeros": 9,
+          "numeros": 6,
+          "disponiveis": 8,
+          "total": 8,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzY1MjQxOTE3NDsxMDczMzs=",
+          "concurso": 1301,
+          "modalidade": "DIA_DE_SORTE",
+          "premio": 300000,
+          "valor": 16.2,
+          "apostas": 3,
+          "numeros": 8,
           "disponiveis": 5,
           "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzY1MjQxOTE3MjsxMDczMzs=",
+          "concurso": 3060,
+          "modalidade": "MEGA_SENA",
+          "premio": 28000000,
+          "valor": 28.35,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 4,
+          "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
@@ -55,7 +94,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-18T17:03:22.285Z",
+      "fetchedAt": "2026-09-18T19:33:28.053Z",
       "stale": false,
       "offers": [
         {
@@ -90,9 +129,22 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-09-18T17:03:21.873Z",
+      "fetchedAt": "2026-09-18T19:33:27.813Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjs5OzY0MzUyNTEyOTsxMDczMzs=",
+          "concurso": 3060,
+          "modalidade": "MEGA_SENA",
+          "premio": 28000000,
+          "valor": 12.68,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 8,
+          "total": 9,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjs5OzY0MzUyNTEyODsxMDczMzs=",
           "concurso": 3060,
@@ -116,19 +168,6 @@
           "numeros": 7,
           "disponiveis": 3,
           "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzY0MzUyNTEyOTsxMDczMzs=",
-          "concurso": 3060,
-          "modalidade": "MEGA_SENA",
-          "premio": 28000000,
-          "valor": 12.68,
-          "apostas": 2,
-          "numeros": 7,
-          "disponiveis": 8,
-          "total": 9,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

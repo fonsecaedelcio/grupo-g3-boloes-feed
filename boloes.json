@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T09:51:53.224Z",
+  "generatedAt": "2026-09-20T13:52:58.608Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -29,16 +29,16 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-20T09:51:57.152Z",
+      "fetchedAt": "2026-09-20T13:53:03.426Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjs5OzY2OTg2NDY0MDsxMDczMzs=",
-          "concurso": 3060,
-          "modalidade": "MEGA_SENA",
-          "premio": 28000000,
-          "valor": 17.09,
-          "apostas": 3,
+          "id": "MjAyNjs5OzY5NTcyNDMwMTsxMDczMzs=",
+          "concurso": 3011,
+          "modalidade": "DUPLA_SENA",
+          "premio": 5000000,
+          "valor": 11.34,
+          "apostas": 4,
           "numeros": 7,
           "disponiveis": 9,
           "total": 10,
@@ -57,58 +57,6 @@
           "total": 7,
           "cidade": "SAO PAULO",
           "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzY5NTcyNDMwNDsxMDczMzs=",
-          "concurso": 7122,
-          "modalidade": "QUINA",
-          "premio": 600000,
-          "valor": 14.58,
-          "apostas": 6,
-          "numeros": 6,
-          "disponiveis": 6,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzczMzI5NTc2MjsxMDczNDs=",
-          "concurso": 3784,
-          "modalidade": "LOTOFACIL",
-          "premio": 5000000,
-          "valor": 10.92,
-          "apostas": 2,
-          "numeros": 16,
-          "disponiveis": 12,
-          "total": 14,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzY5NTcyNDMwMTsxMDczMzs=",
-          "concurso": 3011,
-          "modalidade": "DUPLA_SENA",
-          "premio": 5000000,
-          "valor": 11.34,
-          "apostas": 4,
-          "numeros": 7,
-          "disponiveis": 9,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzY2OTg2NDY0MTsxMDczMzs=",
-          "concurso": 3060,
-          "modalidade": "MEGA_SENA",
-          "premio": 28000000,
-          "valor": 13.5,
-          "apostas": 10,
-          "numeros": 6,
-          "disponiveis": 4,
-          "total": 6,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
         }
       ]
     },
@@ -117,7 +65,7 @@
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
       "fetchedAt": "2026-09-20T09:51:56.910Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjs5OzY0MzUyNTEzMDsxMDczMzs=",

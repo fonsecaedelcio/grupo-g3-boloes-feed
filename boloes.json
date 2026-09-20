@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T13:52:58.608Z",
+  "generatedAt": "2026-09-20T17:16:25.713Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -29,7 +29,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-20T13:53:03.426Z",
+      "fetchedAt": "2026-09-20T17:16:30.079Z",
       "stale": false,
       "offers": [
         {
@@ -42,19 +42,6 @@
           "numeros": 7,
           "disponiveis": 9,
           "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzY5NTcyNDMwMjsxMDczMzs=",
-          "concurso": 901,
-          "modalidade": "SUPER_7",
-          "premio": 8500000,
-          "valor": 10.5,
-          "apostas": 9,
-          "numeros": 8,
-          "disponiveis": 2,
-          "total": 7,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T01:16:27.044Z",
+  "generatedAt": "2026-09-23T06:05:30.845Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -29,9 +29,35 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-23T01:16:33.835Z",
+      "fetchedAt": "2026-09-23T06:05:34.991Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjs5OzMwNDA1MDIwMzsxMDczNzs=",
+          "concurso": 902,
+          "modalidade": "SUPER_7",
+          "premio": 8800000,
+          "valor": 10.5,
+          "apostas": 9,
+          "numeros": 8,
+          "disponiveis": 7,
+          "total": 7,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5Ozc4ODI2MjcxMjsxMDczNjs=",
+          "concurso": 392,
+          "modalidade": "MAIS_MILIONARIA",
+          "premio": 97000000,
+          "valor": 12.23,
+          "apostas": 5,
+          "numeros": 6,
+          "disponiveis": 10,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjs5OzMwNDA1MDIwNTsxMDczNzs=",
           "concurso": 3062,
@@ -40,7 +66,7 @@
           "valor": 11.34,
           "apostas": 2,
           "numeros": 7,
-          "disponiveis": 10,
+          "disponiveis": 9,
           "total": 10,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -59,19 +85,6 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzMwNDA1MDIwNDsxMDczNzs=",
-          "concurso": 7125,
-          "modalidade": "QUINA",
-          "premio": 7500000,
-          "valor": 14.58,
-          "apostas": 6,
-          "numeros": 6,
-          "disponiveis": 10,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
           "id": "MjAyNjs5OzMwNDA1MDIwMTsxMDczNzs=",
           "concurso": 3787,
           "modalidade": "LOTOFACIL",
@@ -85,28 +98,15 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5Ozc4ODI2MjcxMjsxMDczNjs=",
-          "concurso": 392,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 97000000,
-          "valor": 12.23,
-          "apostas": 5,
+          "id": "MjAyNjs5OzMwNDA1MDIwNDsxMDczNzs=",
+          "concurso": 7125,
+          "modalidade": "QUINA",
+          "premio": 7500000,
+          "valor": 14.58,
+          "apostas": 6,
           "numeros": 6,
           "disponiveis": 10,
           "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzMwNDA1MDIwMzsxMDczNzs=",
-          "concurso": 902,
-          "modalidade": "SUPER_7",
-          "premio": 8800000,
-          "valor": 10.5,
-          "apostas": 9,
-          "numeros": 8,
-          "disponiveis": 7,
-          "total": 7,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
@@ -116,9 +116,48 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-09-23T01:16:33.555Z",
+      "fetchedAt": "2026-09-23T06:05:34.750Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjs5OzMwMTk1NjIwNTsxMDczNzs=",
+          "concurso": 3062,
+          "modalidade": "MEGA_SENA",
+          "premio": 38000000,
+          "valor": 13.13,
+          "apostas": 3,
+          "numeros": 7,
+          "disponiveis": 10,
+          "total": 13,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5Ozc3ODA3OTgzNTsxMDczNjs=",
+          "concurso": 392,
+          "modalidade": "MAIS_MILIONARIA",
+          "premio": 97000000,
+          "valor": 14.21,
+          "apostas": 14,
+          "numeros": 6,
+          "disponiveis": 6,
+          "total": 8,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzMwMTk1NjIxNjsxMDczNzs=",
+          "concurso": 2446,
+          "modalidade": "TIMEMANIA",
+          "premio": 16000000,
+          "valor": 10.15,
+          "apostas": 15,
+          "numeros": 10,
+          "disponiveis": 7,
+          "total": 7,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjs5OzMwMTk1NjIwMTsxMDczNzs=",
           "concurso": 3062,
@@ -133,15 +172,15 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzMwMTk1NjIxNjsxMDczNzs=",
-          "concurso": 2446,
-          "modalidade": "TIMEMANIA",
-          "premio": 16000000,
-          "valor": 10.15,
-          "apostas": 15,
-          "numeros": 10,
-          "disponiveis": 7,
-          "total": 7,
+          "id": "MjAyNjs5OzMwMTk1NjIwOTsxMDczNzs=",
+          "concurso": 7125,
+          "modalidade": "QUINA",
+          "premio": 7500000,
+          "valor": 12.15,
+          "apostas": 2,
+          "numeros": 6,
+          "disponiveis": 2,
+          "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -168,45 +207,6 @@
           "numeros": 6,
           "disponiveis": 3,
           "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzMwMTk1NjIwNTsxMDczNzs=",
-          "concurso": 3062,
-          "modalidade": "MEGA_SENA",
-          "premio": 38000000,
-          "valor": 13.13,
-          "apostas": 3,
-          "numeros": 7,
-          "disponiveis": 10,
-          "total": 13,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzMwMTk1NjIwOTsxMDczNzs=",
-          "concurso": 7125,
-          "modalidade": "QUINA",
-          "premio": 7500000,
-          "valor": 12.15,
-          "apostas": 2,
-          "numeros": 6,
-          "disponiveis": 3,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5Ozc3ODA3OTgzNTsxMDczNjs=",
-          "concurso": 392,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 97000000,
-          "valor": 14.21,
-          "apostas": 14,
-          "numeros": 6,
-          "disponiveis": 6,
-          "total": 8,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

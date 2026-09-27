@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-26T23:50:43.195Z",
+  "generatedAt": "2026-09-27T03:12:26.763Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-09-26T23:50:44.362Z",
+      "fetchedAt": "2026-09-27T03:12:29.750Z",
       "stale": false,
       "offers": [
         {
@@ -18,7 +18,7 @@
           "valor": 13.57,
           "apostas": 5,
           "numeros": 6,
-          "disponiveis": 8,
+          "disponiveis": 7,
           "total": 9,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -29,22 +29,9 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-26T23:50:45.063Z",
+      "fetchedAt": "2026-09-27T03:12:30.649Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjs5OzQ1NjAxNzYwMTsxMDc0MDs=",
-          "concurso": 3063,
-          "modalidade": "MEGA_SENA",
-          "premio": 45000000,
-          "valor": 11.34,
-          "apostas": 2,
-          "numeros": 7,
-          "disponiveis": 1,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjs5OzQ1NjAxNzYxMDsxMDc0MDs=",
           "concurso": 393,
@@ -59,15 +46,15 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzUzMzE1OTgwMzsxMDc0MTs=",
-          "concurso": 904,
-          "modalidade": "SUPER_7",
-          "premio": 9300000,
-          "valor": 12.99,
-          "apostas": 4,
-          "numeros": 9,
-          "disponiveis": 4,
-          "total": 5,
+          "id": "MjAyNjs5OzQ1NjAxNzYxMTsxMDc0MDs=",
+          "concurso": 2447,
+          "modalidade": "TIMEMANIA",
+          "premio": 16500000,
+          "valor": 10.15,
+          "apostas": 15,
+          "numeros": 10,
+          "disponiveis": 1,
+          "total": 7,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -98,19 +85,6 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzQ1NjAxNzYxMTsxMDc0MDs=",
-          "concurso": 2447,
-          "modalidade": "TIMEMANIA",
-          "premio": 16500000,
-          "valor": 10.15,
-          "apostas": 15,
-          "numeros": 10,
-          "disponiveis": 3,
-          "total": 7,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
           "id": "MjAyNjs5OzQ1NjAxNzYwMjsxMDc0MDs=",
           "concurso": 3063,
           "modalidade": "MEGA_SENA",
@@ -122,6 +96,19 @@
           "total": 13,
           "cidade": "SAO PAULO",
           "uf": "SP"
+        },
+        {
+          "id": "MjAyNjs5OzUzMzE1OTgwMzsxMDc0MTs=",
+          "concurso": 904,
+          "modalidade": "SUPER_7",
+          "premio": 9300000,
+          "valor": 12.99,
+          "apostas": 4,
+          "numeros": 9,
+          "disponiveis": 4,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
         }
       ]
     },
@@ -129,7 +116,7 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-09-26T23:50:44.638Z",
+      "fetchedAt": "2026-09-27T03:12:30.197Z",
       "stale": false,
       "offers": [
         {

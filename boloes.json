@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T23:59:55.579Z",
+  "generatedAt": "2026-09-28T05:15:13.699Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -29,7 +29,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-28T00:00:01.328Z",
+      "fetchedAt": "2026-09-28T05:15:18.732Z",
       "stale": false,
       "offers": [
         {
@@ -40,7 +40,7 @@
           "valor": 12.99,
           "apostas": 4,
           "numeros": 9,
-          "disponiveis": 4,
+          "disponiveis": 2,
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T20:27:48.634Z",
+  "generatedAt": "2026-10-01T00:09:12.287Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -8,7 +8,7 @@
       "slug": "we",
       "name": "Casa Lotérica WE",
       "fetchedAt": "2026-09-30T20:27:49.299Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjs5OzYxMTMyMDkwMzsxMDc0Mzs=",
@@ -29,74 +29,9 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-09-30T20:27:49.786Z",
+      "fetchedAt": "2026-10-01T00:09:20.700Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjs5OzcyODE5NDYwMjsxMDc0NDs=",
-          "concurso": 3065,
-          "modalidade": "MEGA_SENA",
-          "premio": 75000000,
-          "valor": 11.34,
-          "apostas": 2,
-          "numeros": 7,
-          "disponiveis": 10,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzYwNTA0MzAzMzsxMDc0Mzs=",
-          "concurso": 394,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 99000000,
-          "valor": 12.23,
-          "apostas": 5,
-          "numeros": 6,
-          "disponiveis": 7,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyODE5NDYwNjsxMDc0NDs=",
-          "concurso": 3015,
-          "modalidade": "DUPLA_SENA",
-          "premio": 6200000,
-          "valor": 10.14,
-          "apostas": 10,
-          "numeros": 6,
-          "disponiveis": 2,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyODE5NDYwNTsxMDc0NDs=",
-          "concurso": 1311,
-          "modalidade": "DIA_DE_SORTE",
-          "premio": 1300000,
-          "valor": 10.8,
-          "apostas": 2,
-          "numeros": 8,
-          "disponiveis": 4,
-          "total": 5,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyODE5NDYwOTsxMDc0NDs=",
-          "concurso": 3793,
-          "modalidade": "LOTOFACIL",
-          "premio": 2000000,
-          "valor": 11.82,
-          "apostas": 10,
-          "numeros": 15,
-          "disponiveis": 2,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjs5OzcyODE5NDYwNzsxMDc0NDs=",
           "concurso": 2449,
@@ -111,28 +46,15 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzY4NTQ0Nzk4ODsxMDc0NDs=",
-          "concurso": 3015,
-          "modalidade": "DUPLA_SENA",
-          "premio": 6200000,
-          "valor": 10.14,
-          "apostas": 10,
-          "numeros": 6,
-          "disponiveis": 2,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyODE5NDYwNDsxMDc0NDs=",
-          "concurso": 7131,
-          "modalidade": "QUINA",
-          "premio": 13500000,
-          "valor": 12.15,
-          "apostas": 4,
-          "numeros": 6,
-          "disponiveis": 5,
-          "total": 8,
+          "id": "MjAyNjs5OzcyODE5NDYwMjsxMDc0NDs=",
+          "concurso": 3065,
+          "modalidade": "MEGA_SENA",
+          "premio": 75000000,
+          "valor": 11.34,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 10,
+          "total": 10,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
@@ -142,24 +64,11 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-09-30T20:27:49.532Z",
+      "fetchedAt": "2026-10-01T00:09:20.289Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjs5OzcyOTY2MTQwMzsxMDc0NDs=",
-          "concurso": 3065,
-          "modalidade": "MEGA_SENA",
-          "premio": 75000000,
-          "valor": 25.37,
-          "apostas": 2,
-          "numeros": 8,
-          "disponiveis": 14,
-          "total": 18,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyOTY2MTQwNjsxMDc0NDs=",
+          "id": "MjAyNjs5OzcyOTY2MTQwNDsxMDc0NDs=",
           "concurso": 3065,
           "modalidade": "MEGA_SENA",
           "premio": 75000000,
@@ -185,7 +94,7 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzcyOTY2MTQwNDsxMDc0NDs=",
+          "id": "MjAyNjs5OzcyOTY2MTQwNjsxMDc0NDs=",
           "concurso": 3065,
           "modalidade": "MEGA_SENA",
           "premio": 75000000,
@@ -193,19 +102,6 @@
           "apostas": 5,
           "numeros": 6,
           "disponiveis": 1,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyOTY2MTQwNzsxMDc0NDs=",
-          "concurso": 7131,
-          "modalidade": "QUINA",
-          "premio": 13500000,
-          "valor": 12.15,
-          "apostas": 2,
-          "numeros": 6,
-          "disponiveis": 2,
           "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -224,41 +120,15 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjs5OzcyOTY2MTQwODsxMDc0NDs=",
-          "concurso": 7131,
-          "modalidade": "QUINA",
-          "premio": 13500000,
-          "valor": 12.15,
+          "id": "MjAyNjs5OzcyOTY2MTQwMzsxMDc0NDs=",
+          "concurso": 3065,
+          "modalidade": "MEGA_SENA",
+          "premio": 75000000,
+          "valor": 25.37,
           "apostas": 2,
-          "numeros": 6,
-          "disponiveis": 3,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyOTY2MTQwOTsxMDc0NDs=",
-          "concurso": 7131,
-          "modalidade": "QUINA",
-          "premio": 13500000,
-          "valor": 12.15,
-          "apostas": 2,
-          "numeros": 6,
-          "disponiveis": 2,
-          "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjs5OzcyOTY2MTQwMTsxMDc0NDs=",
-          "concurso": 3793,
-          "modalidade": "LOTOFACIL",
-          "premio": 2000000,
-          "valor": 18.96,
-          "apostas": 2,
-          "numeros": 16,
-          "disponiveis": 6,
-          "total": 8,
+          "numeros": 8,
+          "disponiveis": 13,
+          "total": 18,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

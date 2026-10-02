@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T22:57:57.455Z",
+  "generatedAt": "2026-10-02T02:09:11.897Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -29,22 +29,9 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-01T22:58:01.170Z",
+      "fetchedAt": "2026-10-02T02:09:16.524Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjsxMDs4MTk4ODg0MDI7MTA3NDY7",
-          "concurso": 7132,
-          "modalidade": "QUINA",
-          "premio": 14700000,
-          "valor": 12.15,
-          "apostas": 4,
-          "numeros": 6,
-          "disponiveis": 1,
-          "total": 8,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjsxMDs4MTk4ODg0MDM7MTA3NDY7",
           "concurso": 395,
@@ -65,7 +52,7 @@
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
       "fetchedAt": "2026-10-01T22:58:00.677Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjs5OzcyOTY2MTQwMzsxMDc0NDs=",

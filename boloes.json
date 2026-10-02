@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T02:09:11.897Z",
+  "generatedAt": "2026-10-02T08:35:59.365Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -29,7 +29,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-02T02:09:16.524Z",
+      "fetchedAt": "2026-10-02T08:36:03.663Z",
       "stale": false,
       "offers": [
         {

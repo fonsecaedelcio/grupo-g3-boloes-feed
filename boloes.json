@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T17:36:45.187Z",
+  "generatedAt": "2026-10-03T20:11:42.288Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -64,7 +64,7 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-10-03T17:36:51.788Z",
+      "fetchedAt": "2026-10-03T20:11:45.475Z",
       "stale": false,
       "offers": [
         {
@@ -88,7 +88,7 @@
           "valor": 10.14,
           "apostas": 5,
           "numeros": 6,
-          "disponiveis": 2,
+          "disponiveis": 1,
           "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"

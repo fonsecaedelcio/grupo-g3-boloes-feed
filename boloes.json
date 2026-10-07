@@ -1,15 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T23:56:43.652Z",
+  "generatedAt": "2026-10-07T05:34:44.697Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-10-06T23:56:46.206Z",
+      "fetchedAt": "2026-10-07T05:34:46.105Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDM7MTA3NTE7",
+          "concurso": 2452,
+          "modalidade": "TIMEMANIA",
+          "premio": 19000000,
+          "valor": 14.18,
+          "apostas": 9,
+          "numeros": 10,
+          "disponiveis": 3,
+          "total": 3,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjsxMDs1MjYxODMxMDE7MTA3NTA7",
           "concurso": 908,
@@ -19,6 +32,58 @@
           "apostas": 5,
           "numeros": 9,
           "disponiveis": 1,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDU7MTA3NTE7",
+          "concurso": 3068,
+          "modalidade": "MEGA_SENA",
+          "premio": 100000000,
+          "valor": 22.68,
+          "apostas": 1,
+          "numeros": 8,
+          "disponiveis": 10,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDI7MTA3NTE7",
+          "concurso": 2452,
+          "modalidade": "TIMEMANIA",
+          "premio": 19000000,
+          "valor": 14.18,
+          "apostas": 9,
+          "numeros": 10,
+          "disponiveis": 3,
+          "total": 3,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDQ7MTA3NTE7",
+          "concurso": 3068,
+          "modalidade": "MEGA_SENA",
+          "premio": 100000000,
+          "valor": 14.22,
+          "apostas": 3,
+          "numeros": 7,
+          "disponiveis": 8,
+          "total": 12,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDc7MTA3NTE7",
+          "concurso": 3018,
+          "modalidade": "DUPLA_SENA",
+          "premio": 7100000,
+          "valor": 11.34,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 5,
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -35,6 +100,45 @@
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDY7MTA3NTE7",
+          "concurso": 1317,
+          "modalidade": "DIA_DE_SORTE",
+          "premio": 3300000,
+          "valor": 16.2,
+          "apostas": 3,
+          "numeros": 8,
+          "disponiveis": 5,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDE7MTA3NTE7",
+          "concurso": 7137,
+          "modalidade": "QUINA",
+          "premio": 26800000,
+          "valor": 12.23,
+          "apostas": 5,
+          "numeros": 6,
+          "disponiveis": 10,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs2MTk0NjEzMDg7MTA3NTE7",
+          "concurso": 3799,
+          "modalidade": "LOTOFACIL",
+          "premio": 2000000,
+          "valor": 18.92,
+          "apostas": 1,
+          "numeros": 16,
+          "disponiveis": 4,
+          "total": 4,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
         }
       ]
     },
@@ -42,22 +146,9 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-06T23:56:53.672Z",
+      "fetchedAt": "2026-10-07T05:34:50.278Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjsxMDs0NTA1NTEzMDU7MTA3NTA7",
-          "concurso": 396,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 102000000,
-          "valor": 11.34,
-          "apostas": 7,
-          "numeros": 6,
-          "disponiveis": 3,
-          "total": 5,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjsxMDs1MzYxNDc1MDY7MTA3NTE7",
           "concurso": 3018,
@@ -68,6 +159,19 @@
           "numeros": 6,
           "disponiveis": 2,
           "total": 4,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs0NTA1NTEzMDU7MTA3NTA7",
+          "concurso": 396,
+          "modalidade": "MAIS_MILIONARIA",
+          "premio": 102000000,
+          "valor": 11.34,
+          "apostas": 7,
+          "numeros": 6,
+          "disponiveis": 2,
+          "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

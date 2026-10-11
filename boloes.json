@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T12:09:06.024Z",
+  "generatedAt": "2026-10-11T17:42:03.663Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -8,7 +8,7 @@
       "slug": "we",
       "name": "Casa Lotérica WE",
       "fetchedAt": "2026-10-11T12:09:07.140Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMDs4MDA3ODI4MDE7MTA3NTM7",
@@ -43,7 +43,7 @@
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
       "fetchedAt": "2026-10-11T12:09:10.257Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMDs4OTg1MTEyMDE7MTA3NTU7",

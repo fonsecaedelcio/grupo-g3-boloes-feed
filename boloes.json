@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T23:36:39.973Z",
+  "generatedAt": "2026-10-19T01:41:19.066Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-10-18T23:36:41.263Z",
+      "fetchedAt": "2026-10-19T01:41:20.537Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjsxMDs3NzMzODY2MDY7MTA3NjM7",
+          "id": "MjAyNjsxMDs3NzMzODY2MDc7MTA3NjM7",
           "concurso": 7146,
           "modalidade": "QUINA",
           "premio": 51000000,
-          "valor": 14.22,
-          "apostas": 2,
-          "numeros": 7,
-          "disponiveis": 12,
-          "total": 12,
+          "valor": 15.12,
+          "apostas": 1,
+          "numeros": 8,
+          "disponiveis": 15,
+          "total": 15,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -37,14 +37,14 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjsxMDs3NzMzODY2MDM7MTA3NjM7",
+          "id": "MjAyNjsxMDs3NzMzODY2MDQ7MTA3NjM7",
           "concurso": 3072,
           "modalidade": "MEGA_SENA",
           "premio": 185000000,
           "valor": 17.09,
           "apostas": 3,
           "numeros": 7,
-          "disponiveis": 7,
+          "disponiveis": 10,
           "total": 10,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -63,28 +63,41 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjsxMDs3NzMzODY2MDQ7MTA3NjM7",
+          "id": "MjAyNjsxMDs3NzMzODY2MDM7MTA3NjM7",
           "concurso": 3072,
           "modalidade": "MEGA_SENA",
           "premio": 185000000,
           "valor": 17.09,
           "apostas": 3,
           "numeros": 7,
-          "disponiveis": 10,
+          "disponiveis": 7,
           "total": 10,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
         {
-          "id": "MjAyNjsxMDs3NzMzODY2MDk7MTA3NjM7",
-          "concurso": 2457,
-          "modalidade": "TIMEMANIA",
-          "premio": 21300000,
-          "valor": 11.34,
-          "apostas": 12,
-          "numeros": 10,
-          "disponiveis": 5,
-          "total": 5,
+          "id": "MjAyNjsxMDs3NzMzODY2MDY7MTA3NjM7",
+          "concurso": 7146,
+          "modalidade": "QUINA",
+          "premio": 51000000,
+          "valor": 14.22,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 12,
+          "total": 12,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs3NzMzODY2MDE7MTA3NjM7",
+          "concurso": 3072,
+          "modalidade": "MEGA_SENA",
+          "premio": 185000000,
+          "valor": 15.12,
+          "apostas": 1,
+          "numeros": 8,
+          "disponiveis": 9,
+          "total": 15,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -102,6 +115,19 @@
           "uf": "SP"
         },
         {
+          "id": "MjAyNjsxMDs3NzMzODY2MDk7MTA3NjM7",
+          "concurso": 2457,
+          "modalidade": "TIMEMANIA",
+          "premio": 21300000,
+          "valor": 11.34,
+          "apostas": 12,
+          "numeros": 10,
+          "disponiveis": 5,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
           "id": "MjAyNjsxMDs3NzMzODY2MTA7MTA3NjM7",
           "concurso": 400,
           "modalidade": "MAIS_MILIONARIA",
@@ -111,32 +137,6 @@
           "numeros": 6,
           "disponiveis": 4,
           "total": 5,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDs3NzMzODY2MDE7MTA3NjM7",
-          "concurso": 3072,
-          "modalidade": "MEGA_SENA",
-          "premio": 185000000,
-          "valor": 15.12,
-          "apostas": 1,
-          "numeros": 8,
-          "disponiveis": 10,
-          "total": 15,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDs3NzMzODY2MDc7MTA3NjM7",
-          "concurso": 7146,
-          "modalidade": "QUINA",
-          "premio": 51000000,
-          "valor": 15.12,
-          "apostas": 1,
-          "numeros": 8,
-          "disponiveis": 15,
-          "total": 15,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

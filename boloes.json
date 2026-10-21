@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T23:55:58.818Z",
+  "generatedAt": "2026-10-21T04:05:55.174Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-10-20T23:56:00.610Z",
+      "fetchedAt": "2026-10-21T04:05:56.628Z",
       "stale": false,
       "offers": [
         {
@@ -18,7 +18,7 @@
           "valor": 14.58,
           "apostas": 3,
           "numeros": 6,
-          "disponiveis": 4,
+          "disponiveis": 3,
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -29,7 +29,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-20T23:56:01.563Z",
+      "fetchedAt": "2026-10-21T04:05:57.330Z",
       "stale": false,
       "offers": [
         {
@@ -51,7 +51,7 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-10-20T23:56:01.088Z",
+      "fetchedAt": "2026-10-21T04:05:56.978Z",
       "stale": false,
       "offers": [
         {

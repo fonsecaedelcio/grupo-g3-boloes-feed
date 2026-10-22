@@ -1,15 +1,28 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T05:25:31.490Z",
+  "generatedAt": "2026-10-22T10:28:55.777Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-10-22T05:25:32.793Z",
+      "fetchedAt": "2026-10-22T10:28:56.903Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjsxMDszNjI2NDY1MDQ7MTA3NjY7",
+          "concurso": 3073,
+          "modalidade": "MEGA_SENA",
+          "premio": 200000000,
+          "valor": 22.68,
+          "apostas": 4,
+          "numeros": 7,
+          "disponiveis": 9,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjsxMDszNjI2NDY1MDE7MTA3NjY7",
           "concurso": 3073,
@@ -25,6 +38,19 @@
         },
         {
           "id": "MjAyNjsxMDszNjI2NDY1MDk7MTA3NjY7",
+          "concurso": 2458,
+          "modalidade": "TIMEMANIA",
+          "premio": 21700000,
+          "valor": 15.77,
+          "apostas": 10,
+          "numeros": 10,
+          "disponiveis": 3,
+          "total": 3,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDszNjI2NDY1MDc7MTA3NjY7",
           "concurso": 2458,
           "modalidade": "TIMEMANIA",
           "premio": 21700000,
@@ -61,32 +87,6 @@
           "total": 15,
           "cidade": "SAO PAULO",
           "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDszNjI2NDY1MDQ7MTA3NjY7",
-          "concurso": 3073,
-          "modalidade": "MEGA_SENA",
-          "premio": 200000000,
-          "valor": 22.68,
-          "apostas": 4,
-          "numeros": 7,
-          "disponiveis": 9,
-          "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDszNjI2NDY1MDc7MTA3NjY7",
-          "concurso": 2458,
-          "modalidade": "TIMEMANIA",
-          "premio": 21700000,
-          "valor": 15.77,
-          "apostas": 10,
-          "numeros": 10,
-          "disponiveis": 3,
-          "total": 3,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
         }
       ]
     },
@@ -94,7 +94,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-22T05:25:33.708Z",
+      "fetchedAt": "2026-10-22T10:28:57.481Z",
       "stale": false,
       "offers": [
         {
@@ -118,7 +118,7 @@
           "valor": 45.36,
           "apostas": 1,
           "numeros": 8,
-          "disponiveis": 4,
+          "disponiveis": 3,
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -129,18 +129,18 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-10-22T05:25:33.326Z",
+      "fetchedAt": "2026-10-22T10:28:57.194Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjsxMDszNjYzNTI5MDI7MTA3NjY7",
+          "id": "MjAyNjsxMDszNjYzNTI5MDE7MTA3NjY7",
           "concurso": 3073,
           "modalidade": "MEGA_SENA",
           "premio": 200000000,
           "valor": 27.35,
-          "apostas": 3,
-          "numeros": 8,
-          "disponiveis": 17,
+          "apostas": 1,
+          "numeros": 9,
+          "disponiveis": 16,
           "total": 25,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -159,14 +159,14 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjsxMDszNjYzNTI5MDE7MTA3NjY7",
+          "id": "MjAyNjsxMDszNjYzNTI5MDI7MTA3NjY7",
           "concurso": 3073,
           "modalidade": "MEGA_SENA",
           "premio": 200000000,
           "valor": 27.35,
-          "apostas": 1,
-          "numeros": 9,
-          "disponiveis": 16,
+          "apostas": 3,
+          "numeros": 8,
+          "disponiveis": 17,
           "total": 25,
           "cidade": "SAO PAULO",
           "uf": "SP"

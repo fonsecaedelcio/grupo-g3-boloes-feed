@@ -1,28 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T05:58:42.022Z",
+  "generatedAt": "2026-10-23T11:30:11.969Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-10-23T05:58:43.800Z",
+      "fetchedAt": "2026-10-23T11:30:13.903Z",
       "stale": false,
       "offers": [
-        {
-          "id": "MjAyNjsxMDs0NTUzNjc5MDQ7MTA3Njc7",
-          "concurso": 401,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 108000000,
-          "valor": 12.15,
-          "apostas": 4,
-          "numeros": 6,
-          "disponiveis": 8,
-          "total": 8,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
         {
           "id": "MjAyNjsxMDs0NTUzNjc5MDU7MTA3Njc7",
           "concurso": 3024,
@@ -61,6 +48,19 @@
           "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs0NTUzNjc5MDQ7MTA3Njc7",
+          "concurso": 401,
+          "modalidade": "MAIS_MILIONARIA",
+          "premio": 108000000,
+          "valor": 12.15,
+          "apostas": 4,
+          "numeros": 6,
+          "disponiveis": 8,
+          "total": 8,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
         }
       ]
     },
@@ -68,9 +68,87 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-23T05:58:46.525Z",
+      "fetchedAt": "2026-10-23T11:30:23.276Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDI7MTA3Njg7",
+          "concurso": 3074,
+          "modalidade": "MEGA_SENA",
+          "premio": 230000000,
+          "valor": 45.36,
+          "apostas": 1,
+          "numeros": 8,
+          "disponiveis": 5,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDQ7MTA3Njg7",
+          "concurso": 3074,
+          "modalidade": "MEGA_SENA",
+          "premio": 230000000,
+          "valor": 11.34,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 10,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDg7MTA3Njg7",
+          "concurso": 7150,
+          "modalidade": "QUINA",
+          "premio": 58500000,
+          "valor": 12.15,
+          "apostas": 4,
+          "numeros": 6,
+          "disponiveis": 8,
+          "total": 8,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDc7MTA3Njg7",
+          "concurso": 7150,
+          "modalidade": "QUINA",
+          "premio": 58500000,
+          "valor": 45.36,
+          "apostas": 1,
+          "numeros": 8,
+          "disponiveis": 5,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDE7MTA3Njg7",
+          "concurso": 3074,
+          "modalidade": "MEGA_SENA",
+          "premio": 230000000,
+          "valor": 45.36,
+          "apostas": 1,
+          "numeros": 8,
+          "disponiveis": 5,
+          "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDU7MTA3Njg7",
+          "concurso": 7150,
+          "modalidade": "QUINA",
+          "premio": 58500000,
+          "valor": 21.27,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 8,
+          "total": 8,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjsxMDs0NDc1NDc4MDc7MTA3Njc7",
           "concurso": 401,
@@ -81,6 +159,32 @@
           "numeros": 6,
           "disponiveis": 4,
           "total": 5,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDM7MTA3Njg7",
+          "concurso": 3074,
+          "modalidade": "MEGA_SENA",
+          "premio": 230000000,
+          "valor": 11.34,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 10,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": "MjAyNjsxMDs1NDA1OTk5MDY7MTA3Njg7",
+          "concurso": 7150,
+          "modalidade": "QUINA",
+          "premio": 58500000,
+          "valor": 21.27,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 8,
+          "total": 8,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T00:59:43.341Z",
+  "generatedAt": "2026-10-23T05:58:42.022Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "fetchedAt": "2026-10-23T00:59:45.011Z",
+      "fetchedAt": "2026-10-23T05:58:43.800Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjsxMDs0NTUzNjc5MDY7MTA3Njc7",
-          "concurso": 3024,
-          "modalidade": "DUPLA_SENA",
-          "premio": 9200000,
-          "valor": 11.34,
-          "apostas": 2,
-          "numeros": 7,
-          "disponiveis": 5,
-          "total": 5,
+          "id": "MjAyNjsxMDs0NTUzNjc5MDQ7MTA3Njc7",
+          "concurso": 401,
+          "modalidade": "MAIS_MILIONARIA",
+          "premio": 108000000,
+          "valor": 12.15,
+          "apostas": 4,
+          "numeros": 6,
+          "disponiveis": 8,
+          "total": 8,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -50,15 +50,15 @@
           "uf": "SP"
         },
         {
-          "id": "MjAyNjsxMDs0NTUzNjc5MDQ7MTA3Njc7",
-          "concurso": 401,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 108000000,
-          "valor": 12.15,
-          "apostas": 4,
-          "numeros": 6,
-          "disponiveis": 8,
-          "total": 8,
+          "id": "MjAyNjsxMDs0NTUzNjc5MDY7MTA3Njc7",
+          "concurso": 3024,
+          "modalidade": "DUPLA_SENA",
+          "premio": 9200000,
+          "valor": 11.34,
+          "apostas": 2,
+          "numeros": 7,
+          "disponiveis": 5,
+          "total": 5,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
@@ -68,7 +68,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-23T00:59:50.063Z",
+      "fetchedAt": "2026-10-23T05:58:46.525Z",
       "stale": false,
       "offers": [
         {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T18:42:04.739Z",
+  "generatedAt": "2026-10-30T22:39:54.528Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -8,7 +8,7 @@
       "slug": "we",
       "name": "Casa Lotérica WE",
       "fetchedAt": "2026-10-30T18:42:05.416Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMDszNTMzODU5MDc7MTA3NzQ7",
@@ -77,19 +77,19 @@
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "fetchedAt": "2026-10-30T18:42:05.668Z",
+      "fetchedAt": "2026-10-30T22:39:58.061Z",
       "stale": false,
       "offers": [
         {
-          "id": "MjAyNjsxMDszNTkyNDgxMDU7MTA3NzQ7",
-          "concurso": 403,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 110000000,
-          "valor": 8.1,
-          "apostas": 14,
+          "id": "MjAyNjsxMDs0MzY2Njk5MDU7MTA3NzU7",
+          "concurso": 7156,
+          "modalidade": "QUINA",
+          "premio": 8300000,
+          "valor": 12.15,
+          "apostas": 4,
           "numeros": 6,
-          "disponiveis": 5,
-          "total": 14,
+          "disponiveis": 2,
+          "total": 8,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -101,34 +101,8 @@
           "valor": 13.13,
           "apostas": 2,
           "numeros": 7,
-          "disponiveis": 4,
+          "disponiveis": 2,
           "total": 13,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDszNTkyNDgxMDQ7MTA3NzQ7",
-          "concurso": 403,
-          "modalidade": "MAIS_MILIONARIA",
-          "premio": 110000000,
-          "valor": 8.1,
-          "apostas": 14,
-          "numeros": 6,
-          "disponiveis": 5,
-          "total": 14,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDs0MzY2Njk5MDU7MTA3NzU7",
-          "concurso": 7156,
-          "modalidade": "QUINA",
-          "premio": 8300000,
-          "valor": 12.15,
-          "apostas": 4,
-          "numeros": 6,
-          "disponiveis": 3,
-          "total": 8,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

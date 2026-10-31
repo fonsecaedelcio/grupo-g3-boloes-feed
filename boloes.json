@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T22:39:54.528Z",
+  "generatedAt": "2026-10-31T01:51:53.488Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -78,7 +78,7 @@
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
       "fetchedAt": "2026-10-30T22:39:58.061Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMDs0MzY2Njk5MDU7MTA3NzU7",

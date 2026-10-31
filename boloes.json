@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T18:40:05.178Z",
+  "generatedAt": "2026-10-31T21:53:35.056Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -55,8 +55,8 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-31T14:18:24.380Z",
-      "stale": true,
+      "fetchedAt": "2026-10-31T21:53:38.665Z",
+      "stale": false,
       "offers": [
         {
           "id": "MjAyNjsxMDs1MzU2MjUxMDQ7MTA3NzY7",
@@ -66,21 +66,21 @@
           "valor": 10.16,
           "apostas": 10,
           "numeros": 6,
-          "disponiveis": 8,
+          "disponiveis": 6,
           "total": 8,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
         {
-          "id": "MjAyNjsxMDs1MzU2MjUxMDM7MTA3NzY7",
-          "concurso": 2462,
-          "modalidade": "TIMEMANIA",
-          "premio": 24000000,
-          "valor": 10.15,
-          "apostas": 15,
-          "numeros": 10,
-          "disponiveis": 7,
-          "total": 7,
+          "id": "MjAyNjsxMDs1MzU2MjUxMDE7MTA3NzY7",
+          "concurso": 3819,
+          "modalidade": "LOTOFACIL",
+          "premio": 2000000,
+          "valor": 10.66,
+          "apostas": 9,
+          "numeros": 15,
+          "disponiveis": 3,
+          "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"
         },
@@ -94,19 +94,6 @@
           "numeros": 6,
           "disponiveis": 10,
           "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDs1MzU2MjUxMDE7MTA3NzY7",
-          "concurso": 3819,
-          "modalidade": "LOTOFACIL",
-          "premio": 2000000,
-          "valor": 10.66,
-          "apostas": 9,
-          "numeros": 15,
-          "disponiveis": 4,
-          "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

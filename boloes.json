@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T00:41:32.339Z",
+  "generatedAt": "2026-11-01T06:52:58.419Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -55,7 +55,7 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-11-01T00:41:39.762Z",
+      "fetchedAt": "2026-11-01T06:53:06.757Z",
       "stale": false,
       "offers": [
         {
@@ -68,32 +68,6 @@
           "numeros": 6,
           "disponiveis": 10,
           "total": 10,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDs1MzU2MjUxMDQ7MTA3NzY7",
-          "concurso": 3080,
-          "modalidade": "MEGA_SENA",
-          "premio": 42000000,
-          "valor": 10.16,
-          "apostas": 10,
-          "numeros": 6,
-          "disponiveis": 3,
-          "total": 8,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDs1MzU2MjUxMDE7MTA3NzY7",
-          "concurso": 3819,
-          "modalidade": "LOTOFACIL",
-          "premio": 2000000,
-          "valor": 10.66,
-          "apostas": 9,
-          "numeros": 15,
-          "disponiveis": 1,
-          "total": 4,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

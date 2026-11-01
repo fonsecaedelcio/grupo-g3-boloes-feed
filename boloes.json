@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T21:53:35.056Z",
+  "generatedAt": "2026-11-01T00:41:32.339Z",
   "source": "CAIXA Loterias",
   "units": {
     "2484": {
@@ -55,9 +55,22 @@
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "fetchedAt": "2026-10-31T21:53:38.665Z",
+      "fetchedAt": "2026-11-01T00:41:39.762Z",
       "stale": false,
       "offers": [
+        {
+          "id": "MjAyNjsxMDs1MzU2MjUxMDI7MTA3NzY7",
+          "concurso": 7157,
+          "modalidade": "QUINA",
+          "premio": 9500000,
+          "valor": 12.23,
+          "apostas": 5,
+          "numeros": 6,
+          "disponiveis": 10,
+          "total": 10,
+          "cidade": "SAO PAULO",
+          "uf": "SP"
+        },
         {
           "id": "MjAyNjsxMDs1MzU2MjUxMDQ7MTA3NzY7",
           "concurso": 3080,
@@ -66,7 +79,7 @@
           "valor": 10.16,
           "apostas": 10,
           "numeros": 6,
-          "disponiveis": 6,
+          "disponiveis": 3,
           "total": 8,
           "cidade": "SAO PAULO",
           "uf": "SP"
@@ -79,21 +92,8 @@
           "valor": 10.66,
           "apostas": 9,
           "numeros": 15,
-          "disponiveis": 3,
+          "disponiveis": 1,
           "total": 4,
-          "cidade": "SAO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": "MjAyNjsxMDs1MzU2MjUxMDI7MTA3NzY7",
-          "concurso": 7157,
-          "modalidade": "QUINA",
-          "premio": 9500000,
-          "valor": 12.23,
-          "apostas": 5,
-          "numeros": 6,
-          "disponiveis": 10,
-          "total": 10,
           "cidade": "SAO PAULO",
           "uf": "SP"
         }

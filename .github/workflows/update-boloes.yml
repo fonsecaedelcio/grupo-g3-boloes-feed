@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "7,17,27,37,47,57 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - scripts/collect-boloes.mjs
+      - tests/collect-boloes.test.mjs
+      - .github/workflows/update-boloes.yml
 
 permissions:
   contents: write
@@ -15,7 +21,7 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Baixar o coletor
         uses: actions/checkout@v4
@@ -23,9 +29,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Testar o coletor sem rede
+        run: node --test tests/collect-boloes.test.mjs
       - name: Consultar as três vitrines
+        id: coleta
+        continue-on-error: true
         run: node scripts/collect-boloes.mjs
-      - name: Publicar somente uma vitrine válida
+      - name: Publicar as vitrines válidas e o estado da coleta
+        if: ${{ !cancelled() && (steps.coleta.outcome == 'success' || steps.coleta.outcome == 'failure') }}
         run: |
           git config user.name "Grupo G3 Vitrines"
           git config user.email "actions@users.noreply.github.com"
@@ -34,3 +45,8 @@ jobs:
             git commit -m "Atualiza vitrines de bolões"
             git push
           fi
+      - name: Exigir atualização das três unidades
+        if: ${{ !cancelled() && steps.coleta.outcome == 'failure' }}
+        run: |
+          echo "::error::A coleta não atualizou as três unidades. As vitrines válidas foram preservadas."
+          exit 1

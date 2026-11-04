@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Baixar o coletor
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Preparar Node.js
         uses: actions/setup-node@v4
         with:
@@ -38,17 +40,34 @@ jobs:
       - name: Publicar as vitrines válidas e o estado da coleta
         if: ${{ !cancelled() && (steps.coleta.outcome == 'success' || steps.coleta.outcome == 'failure') }}
         run: |
+          set -euo pipefail
           git config user.name "Grupo G3 Vitrines"
           git config user.email "actions@users.noreply.github.com"
-          git add boloes.json
-          if ! git diff --cached --quiet; then
+          cp boloes.json /tmp/boloes.json
+
+          for tentativa in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/boloes.json boloes.json
+            git add boloes.json
+
+            if git diff --cached --quiet; then
+              echo "O feed remoto já contém esta atualização."
+              exit 0
+            fi
+
             git commit -m "Atualiza vitrines de bolões"
-            git push
-          fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "::warning::O repositório avançou durante a publicação. Nova tentativa ${tentativa}/3."
+          done
+
+          echo "::error::Não foi possível publicar a atualização após três tentativas."
+          exit 1
       - name: Exigir atualização das três unidades
         if: ${{ !cancelled() && steps.coleta.outcome == 'failure' }}
         run: |
           echo "::error::A coleta não atualizou as três unidades. As vitrines válidas foram preservadas."
           exit 1
-
-# Acionamento operacional urgente em 04/11/2026 para restabelecer a atualização das vitrines.

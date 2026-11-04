@@ -50,3 +50,5 @@ jobs:
         run: |
           echo "::error::A coleta não atualizou as três unidades. As vitrines válidas foram preservadas."
           exit 1
+
+# Acionamento operacional urgente em 04/11/2026 para restabelecer a atualização das vitrines.

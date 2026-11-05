@@ -3,7 +3,9 @@ name: Atualizar vitrines de bolões
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
+    # O agendador do GitHub pode atrasar. Cada execução permanece ativa e
+    # atualiza o feed a cada 10 minutos; uma nova execução substitui a anterior.
+    - cron: "17 */2 * * *"
   push:
     branches: [main]
     paths:
@@ -16,58 +18,81 @@ permissions:
 
 concurrency:
   group: atualizar-boloes
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 350
     steps:
       - name: Baixar o coletor
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Preparar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
       - name: Testar o coletor sem rede
         run: node --test tests/collect-boloes.test.mjs
-      - name: Consultar as três vitrines
-        id: coleta
-        continue-on-error: true
-        run: node scripts/collect-boloes.mjs
-      - name: Publicar as vitrines válidas e o estado da coleta
-        if: ${{ !cancelled() && (steps.coleta.outcome == 'success' || steps.coleta.outcome == 'failure') }}
+
+      - name: Atualizar e publicar continuamente
+        shell: bash
         run: |
           set -euo pipefail
           git config user.name "Grupo G3 Vitrines"
           git config user.email "actions@users.noreply.github.com"
-          cp boloes.json /tmp/boloes.json
 
-          for tentativa in 1 2 3; do
+          publicar_feed() {
+            cp boloes.json /tmp/boloes.json
+
+            for tentativa in 1 2 3; do
+              git fetch origin main
+              git reset --hard origin/main
+              cp /tmp/boloes.json boloes.json
+              git add boloes.json
+
+              if git diff --cached --quiet; then
+                echo "O feed remoto já contém esta atualização."
+                return 0
+              fi
+
+              git commit -m "Atualiza vitrines de bolões"
+              if git push origin HEAD:main; then
+                return 0
+              fi
+
+              echo "::warning::O repositório avançou durante a publicação. Nova tentativa ${tentativa}/3."
+            done
+
+            echo "::error::Não foi possível publicar a atualização após três tentativas."
+            return 1
+          }
+
+          # 34 ciclos cobrem aproximadamente 5h30, dentro do limite de 6 horas
+          # do runner. O próximo agendamento substitui esta execução sem deixar
+          # a vitrine dependente da pontualidade do cron do GitHub.
+          for ciclo in $(seq 1 34); do
+            echo "Iniciando ciclo ${ciclo}/34 em $(date -u +'%Y-%m-%dT%H:%M:%SZ')."
+
             git fetch origin main
             git reset --hard origin/main
-            cp /tmp/boloes.json boloes.json
-            git add boloes.json
 
-            if git diff --cached --quiet; then
-              echo "O feed remoto já contém esta atualização."
-              exit 0
+            set +e
+            node scripts/collect-boloes.mjs
+            coleta_status=$?
+            set -e
+
+            publicar_feed
+
+            if [ "$coleta_status" -ne 0 ]; then
+              echo "::warning::Uma ou mais unidades não foram renovadas neste ciclo; a última vitrine válida foi preservada."
             fi
 
-            git commit -m "Atualiza vitrines de bolões"
-            if git push origin HEAD:main; then
-              exit 0
+            if [ "$ciclo" -lt 34 ]; then
+              echo "Próxima consulta em 10 minutos."
+              sleep 600
             fi
-
-            echo "::warning::O repositório avançou durante a publicação. Nova tentativa ${tentativa}/3."
           done
-
-          echo "::error::Não foi possível publicar a atualização após três tentativas."
-          exit 1
-      - name: Exigir atualização das três unidades
-        if: ${{ !cancelled() && steps.coleta.outcome == 'failure' }}
-        run: |
-          echo "::error::A coleta não atualizou as três unidades. As vitrines válidas foram preservadas."
-          exit 1

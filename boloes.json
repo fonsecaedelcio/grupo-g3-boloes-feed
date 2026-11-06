@@ -1,18 +1,19 @@
 {
   "version": 1,
   "source": "CAIXA Loterias",
-  "attemptedAt": "2026-11-06T04:01:20.548Z",
-  "freshUnits": 1,
+  "attemptedAt": "2026-11-06T04:11:35.809Z",
+  "freshUnits": 0,
   "failedUnits": [
     "2484",
-    "20665"
+    "20665",
+    "13979"
   ],
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "attemptedAt": "2026-11-06T04:01:20.548Z",
+      "attemptedAt": "2026-11-06T04:11:35.809Z",
       "fetchedAt": "2026-11-06T03:51:16.726Z",
       "stale": true,
       "offers": [
@@ -213,15 +214,15 @@
         }
       ],
       "skipped": false,
-      "error": "fonte oficial respondeu HTTP 502"
+      "error": "fonte oficial respondeu HTTP 500"
     },
     "13979": {
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "attemptedAt": "2026-11-06T04:01:25.721Z",
+      "attemptedAt": "2026-11-06T04:11:45.196Z",
       "fetchedAt": "2026-11-06T04:01:33.470Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs3OTk2MDAwMDc7MTA3ODE7",
@@ -626,13 +627,15 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 502"
     },
     "20665": {
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "attemptedAt": "2026-11-06T04:01:20.902Z",
+      "attemptedAt": "2026-11-06T04:11:40.664Z",
       "fetchedAt": "2026-11-06T03:51:17.117Z",
       "stale": true,
       "offers": [
@@ -746,5 +749,5 @@
     }
   },
   "complete": false,
-  "generatedAt": "2026-11-06T04:01:33.471Z"
+  "generatedAt": "2026-11-06T04:11:46.042Z"
 }

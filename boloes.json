@@ -1,17 +1,21 @@
 {
   "version": 1,
   "source": "CAIXA Loterias",
-  "attemptedAt": "2026-11-08T04:38:15.375Z",
-  "freshUnits": 3,
-  "failedUnits": [],
+  "attemptedAt": "2026-11-08T04:48:18.981Z",
+  "freshUnits": 0,
+  "failedUnits": [
+    "2484",
+    "20665",
+    "13979"
+  ],
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "attemptedAt": "2026-11-08T04:38:15.375Z",
+      "attemptedAt": "2026-11-08T04:48:18.981Z",
       "fetchedAt": "2026-11-08T04:38:16.450Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODI2OTEwMDg7MTA3Nzk7",
@@ -208,15 +212,17 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 502"
     },
     "13979": {
       "id": "13979",
       "slug": "tomazini",
       "name": "Lotérica Tomazini",
-      "attemptedAt": "2026-11-08T04:38:16.661Z",
+      "attemptedAt": "2026-11-08T04:48:20.660Z",
       "fetchedAt": "2026-11-08T04:38:17.545Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODI1ODYzMDI7MTA3Nzk7",
@@ -621,15 +627,17 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 502"
     },
     "20665": {
       "id": "20665",
       "slug": "praca-xi",
       "name": "Praça XI · Shiaku",
-      "attemptedAt": "2026-11-08T04:38:16.450Z",
+      "attemptedAt": "2026-11-08T04:48:20.476Z",
       "fetchedAt": "2026-11-08T04:38:16.660Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODMxNTM2MDE7MTA3Nzk7",
@@ -722,9 +730,11 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 502"
     }
   },
-  "complete": true,
-  "generatedAt": "2026-11-08T04:38:17.545Z"
+  "complete": false,
+  "generatedAt": "2026-11-08T04:48:21.273Z"
 }

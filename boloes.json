@@ -1,17 +1,21 @@
 {
   "version": 1,
   "source": "CAIXA Loterias",
-  "attemptedAt": "2026-11-15T22:44:59.888Z",
-  "freshUnits": 3,
-  "failedUnits": [],
+  "attemptedAt": "2026-11-15T22:49:33.114Z",
+  "freshUnits": 0,
+  "failedUnits": [
+    "2484",
+    "20665",
+    "13979"
+  ],
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "attemptedAt": "2026-11-15T22:44:59.888Z",
+      "attemptedAt": "2026-11-15T22:49:33.114Z",
       "fetchedAt": "2026-11-15T22:45:02.389Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODI2OTEwMDQ7MTA3Nzk7",
@@ -208,7 +212,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 403"
     },
     "13979": {
       "id": "13979",
@@ -216,7 +222,7 @@
       "name": "Lotérica Tomazini",
       "attemptedAt": "2026-11-15T22:45:02.826Z",
       "fetchedAt": "2026-11-15T22:45:04.093Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs3MzU2ODUzNTA7MTA3ODA7",
@@ -582,7 +588,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     },
     "20665": {
       "id": "20665",
@@ -590,7 +598,7 @@
       "name": "Praça XI · Shiaku",
       "attemptedAt": "2026-11-15T22:45:02.389Z",
       "fetchedAt": "2026-11-15T22:45:02.826Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs2ODkyMzI0MDI7MTA3ODA7",
@@ -683,9 +691,11 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     }
   },
-  "complete": true,
-  "generatedAt": "2026-11-15T22:45:04.094Z"
+  "complete": false,
+  "generatedAt": "2026-11-15T22:49:33.540Z"
 }

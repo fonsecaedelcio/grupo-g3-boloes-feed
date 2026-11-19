@@ -1,17 +1,21 @@
 {
   "version": 1,
   "source": "CAIXA Loterias",
-  "attemptedAt": "2026-11-19T15:54:05.606Z",
-  "freshUnits": 3,
-  "failedUnits": [],
+  "attemptedAt": "2026-11-19T20:37:49.396Z",
+  "freshUnits": 0,
+  "failedUnits": [
+    "2484",
+    "20665",
+    "13979"
+  ],
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "attemptedAt": "2026-11-19T15:54:05.606Z",
+      "attemptedAt": "2026-11-19T20:37:49.396Z",
       "fetchedAt": "2026-11-19T15:54:06.934Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODI2OTEwMDM7MTA3Nzk7",
@@ -234,7 +238,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 403"
     },
     "13979": {
       "id": "13979",
@@ -242,7 +248,7 @@
       "name": "Lotérica Tomazini",
       "attemptedAt": "2026-11-19T15:54:07.319Z",
       "fetchedAt": "2026-11-19T15:54:08.092Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODI1ODYzMDI7MTA3Nzk7",
@@ -634,7 +640,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     },
     "20665": {
       "id": "20665",
@@ -642,7 +650,7 @@
       "name": "Praça XI · Shiaku",
       "attemptedAt": "2026-11-19T15:54:06.935Z",
       "fetchedAt": "2026-11-19T15:54:07.319Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODMxNTM2MDc7MTA3Nzk7",
@@ -839,9 +847,11 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     }
   },
-  "complete": true,
-  "generatedAt": "2026-11-19T15:54:08.092Z"
+  "complete": false,
+  "generatedAt": "2026-11-19T20:37:49.809Z"
 }

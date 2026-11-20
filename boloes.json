@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "CAIXA Loterias",
-  "attemptedAt": "2026-11-19T23:58:39.100Z",
+  "attemptedAt": "2026-11-20T00:08:41.510Z",
   "freshUnits": 0,
   "failedUnits": [
     "2484",
@@ -13,7 +13,7 @@
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "attemptedAt": "2026-11-19T23:58:39.100Z",
+      "attemptedAt": "2026-11-20T00:08:41.510Z",
       "fetchedAt": "2026-11-19T15:54:06.934Z",
       "stale": true,
       "offers": [
@@ -853,5 +853,5 @@
     }
   },
   "complete": false,
-  "generatedAt": "2026-11-19T23:58:39.442Z"
+  "generatedAt": "2026-11-20T00:08:41.962Z"
 }

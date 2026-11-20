@@ -1,0 +1,68 @@
+name: Cards de resultados das loterias
+
+on:
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Data dos sorteios (dd/mm/aaaa). Vazio = automático"
+        required: false
+  schedule:
+    # Horários em UTC (Brasília = UTC-3). O agendador do GitHub pode atrasar,
+    # por isso há duas execuções por dia.
+    - cron: "0 9 * * 2-6"    # ter a sáb, 6h00 (sorteios da noite anterior)
+    - cron: "30 10 * * 2-6"  # ter a sáb, 7h30 (repetição)
+    - cron: "5 15 * * 0"     # domingo, 12h05 (sorteios das 11h)
+    - cron: "40 15 * * 0"    # domingo, 12h40 (repetição)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cards-resultados
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar dependências
+        working-directory: resultados-card
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Gerar os cards
+        env:
+          DATA_ALVO: ${{ github.event.inputs.data }}
+        run: node resultados-card/render.mjs
+
+      - name: Publicar os cards
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Grupo G3 Resultados"
+          git config user.email "actions@users.noreply.github.com"
+          cp -r resultados /tmp/resultados
+          for tentativa in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            rm -rf resultados && cp -r /tmp/resultados resultados
+            git add resultados
+            if git diff --cached --quiet; then
+              echo "Nada novo para publicar."
+              exit 0
+            fi
+            git commit -m "Cards de resultados $(jq -r .data resultados/hoje.json)"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((tentativa * 5))
+          done
+          exit 1

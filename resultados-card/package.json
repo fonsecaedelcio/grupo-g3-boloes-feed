@@ -1,0 +1,9 @@
+{
+  "name": "g3-resultados-card",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.48.2",
+    "qrcode": "^1.5.4"
+  }
+}

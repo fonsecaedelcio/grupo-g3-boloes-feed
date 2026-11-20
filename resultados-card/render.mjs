@@ -28,8 +28,8 @@ const NOME_TXT = { maismilionaria: "+Milionária", megasena: "Mega-Sena", lotofa
 
 const LOJAS = {
   tomazini: { nome: "Lotérica Tomazini", end: "Av. Boturussu, 2074 · Centro de Ermelino Matarazzo", wa: "5511978962327", waTxt: "(11) 97896-2327", mkt: "013979" },
-  "praca-xi": { nome: "Lotérica Praça XI", end: "Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11", wa: "5511960480263", waTxt: "(11) 96048-0263", mkt: "20665" },
-  we: { nome: "Lotérica WE", end: "Estrada do Lageado Velho, 1013 · Guaianazes", wa: "5511976589981", waTxt: "(11) 97658-9981", mkt: "2484" },
+  "praca-xi": { nome: "Lotérica Praça XI", end: "Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11", wa: "5511960480263", waTxt: "(11) 96048-0263", mkt: "020665" },
+  we: { nome: "Lotérica WE", end: "Estrada do Lageado Velho, 1013 · Guaianazes", wa: "5511976589981", waTxt: "(11) 97658-9981", mkt: "002484" },
 };
 
 const DIAS = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];

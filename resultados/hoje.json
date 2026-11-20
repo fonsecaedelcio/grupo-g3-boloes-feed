@@ -1,0 +1,116 @@
+{
+  "data": "19/11/2026",
+  "titulo": "quinta-feira, 19/11",
+  "gerado": "2026-11-20T20:53:38.828Z",
+  "jogos": [
+    {
+      "jogo": "megasena",
+      "concurso": 3088,
+      "dezenas": [
+        "10",
+        "21",
+        "24",
+        "28",
+        "34",
+        "44"
+      ],
+      "extra": "",
+      "acumulou": true,
+      "proximo": 45000000,
+      "ganhadores": 0,
+      "premio": 0
+    },
+    {
+      "jogo": "lotofacil",
+      "concurso": 3834,
+      "dezenas": [
+        "02",
+        "03",
+        "04",
+        "06",
+        "07",
+        "09",
+        "11",
+        "13",
+        "15",
+        "17",
+        "20",
+        "21",
+        "22",
+        "24",
+        "25"
+      ],
+      "extra": "",
+      "acumulou": false,
+      "proximo": 2000000,
+      "ganhadores": 8,
+      "premio": 166998.71
+    },
+    {
+      "jogo": "quina",
+      "concurso": 7172,
+      "dezenas": [
+        "04",
+        "11",
+        "40",
+        "45",
+        "48"
+      ],
+      "extra": "",
+      "acumulou": true,
+      "proximo": 50000000,
+      "ganhadores": 0,
+      "premio": 0
+    },
+    {
+      "jogo": "diadesorte",
+      "concurso": 1352,
+      "dezenas": [
+        "04",
+        "07",
+        "08",
+        "13",
+        "16",
+        "26",
+        "27"
+      ],
+      "extra": "Mês: Junho",
+      "acumulou": true,
+      "proximo": 2100000,
+      "ganhadores": 0,
+      "premio": 0
+    },
+    {
+      "jogo": "timemania",
+      "concurso": 2470,
+      "dezenas": [
+        "03",
+        "04",
+        "06",
+        "22",
+        "51",
+        "71",
+        "79"
+      ],
+      "extra": "Time: CUIABA/MT",
+      "acumulou": true,
+      "proximo": 29600000,
+      "ganhadores": 0,
+      "premio": 0
+    }
+  ],
+  "lojas": {
+    "tomazini": {
+      "arquivo": "resultados/tomazini.jpg",
+      "legenda": "🎯 Resultados de quinta-feira, 19/11\nQuina acumulou: R$ 50.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3088): acumulou! Estimativa do próximo concurso: R$ 45.000.000,00\n• Lotofácil (concurso 3834): saiu! 8 apostas ganhadoras, R$ 166.998,71\n• Quina (concurso 7172): acumulou! Estimativa do próximo concurso: R$ 50.000.000,00\n• Dia de Sorte (concurso 1352): acumulou! Estimativa do próximo concurso: R$ 2.100.000,00\n• Timemania (concurso 2470): acumulou! Estimativa do próximo concurso: R$ 29.600.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511978962327\n👉 Bolões online: grupog3lotericas.com.br\n\n📍 Av. Boturussu, 2074 · Centro de Ermelino Matarazzo\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+    },
+    "praca-xi": {
+      "arquivo": "resultados/praca-xi.jpg",
+      "legenda": "🎯 Resultados de quinta-feira, 19/11\nQuina acumulou: R$ 50.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3088): acumulou! Estimativa do próximo concurso: R$ 45.000.000,00\n• Lotofácil (concurso 3834): saiu! 8 apostas ganhadoras, R$ 166.998,71\n• Quina (concurso 7172): acumulou! Estimativa do próximo concurso: R$ 50.000.000,00\n• Dia de Sorte (concurso 1352): acumulou! Estimativa do próximo concurso: R$ 2.100.000,00\n• Timemania (concurso 2470): acumulou! Estimativa do próximo concurso: R$ 29.600.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511960480263\n👉 Bolões online: grupog3lotericas.com.br\n\n📍 Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+    },
+    "we": {
+      "arquivo": "resultados/we.jpg",
+      "legenda": "🎯 Resultados de quinta-feira, 19/11\nQuina acumulou: R$ 50.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3088): acumulou! Estimativa do próximo concurso: R$ 45.000.000,00\n• Lotofácil (concurso 3834): saiu! 8 apostas ganhadoras, R$ 166.998,71\n• Quina (concurso 7172): acumulou! Estimativa do próximo concurso: R$ 50.000.000,00\n• Dia de Sorte (concurso 1352): acumulou! Estimativa do próximo concurso: R$ 2.100.000,00\n• Timemania (concurso 2470): acumulou! Estimativa do próximo concurso: R$ 29.600.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511976589981\n👉 Bolões online: grupog3lotericas.com.br\n\n📍 Estrada do Lageado Velho, 1013 · Guaianazes\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+    }
+  }
+}

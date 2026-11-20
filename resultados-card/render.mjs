@@ -27,9 +27,9 @@ const JOGOS = {
 const NOME_TXT = { maismilionaria: "+Milionária", megasena: "Mega-Sena", lotofacil: "Lotofácil", quina: "Quina", diadesorte: "Dia de Sorte", timemania: "Timemania", lotomania: "Lotomania", duplasena: "Dupla Sena", supersete: "Super Sete" };
 
 const LOJAS = {
-  tomazini: { nome: "Lotérica Tomazini", end: "Av. Boturussu, 2074 · Centro de Ermelino Matarazzo", wa: "5511978962327", waTxt: "(11) 97896-2327" },
-  "praca-xi": { nome: "Lotérica Praça XI", end: "Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11", wa: "5511960480263", waTxt: "(11) 96048-0263" },
-  we: { nome: "Lotérica WE", end: "Estrada do Lageado Velho, 1013 · Guaianazes", wa: "5511976589981", waTxt: "(11) 97658-9981" },
+  tomazini: { nome: "Lotérica Tomazini", end: "Av. Boturussu, 2074 · Centro de Ermelino Matarazzo", wa: "5511978962327", waTxt: "(11) 97896-2327", mkt: "013979" },
+  "praca-xi": { nome: "Lotérica Praça XI", end: "Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11", wa: "5511960480263", waTxt: "(11) 96048-0263", mkt: "20665" },
+  we: { nome: "Lotérica WE", end: "Estrada do Lageado Velho, 1013 · Guaianazes", wa: "5511976589981", waTxt: "(11) 97658-9981", mkt: "2484" },
 };
 
 const DIAS = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
@@ -158,6 +158,7 @@ function legenda(slug, titulo, jogos) {
     "Faça seu jogo ou garanta sua cota de bolão:",
     `👉 WhatsApp: https://wa.me/${d.wa}`,
     "👉 Bolões online: grupog3lotericas.com.br",
+    `🛒 Comprando no Marketplace? Use o código da loja: ${d.mkt}`,
     "",
     `📍 ${d.end}`,
     "Resultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos.",

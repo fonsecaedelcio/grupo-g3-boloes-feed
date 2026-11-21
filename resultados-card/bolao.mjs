@@ -35,7 +35,7 @@ function resumo(unit) {
 
 function legenda(d) {
   return [
-    `Bolão pronto na ${d.nome}: mais números no jogo, e você paga só a sua cota.`,
+    `Bolão pronto na ${d.nome}: mais números no jogo, mais chances de ganhar, e você paga só a sua cota.`,
     `As cotas são limitadas. Reserve a sua pelo WhatsApp 👇\nhttps://wa.me/${d.wa}\nou passe no balcão e peça a sua.`,
     `🛒 Comprando no Marketplace? Use o código da loja: ${d.mkt}`,
     `📍 ${d.end}`,

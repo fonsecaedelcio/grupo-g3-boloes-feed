@@ -1,4 +1,4 @@
-// Gera a peça padrão "Venha ver nossos bolões!" de cada loja. Só gera se a loja tem bolão à venda na vitrine (boloes.json).
+// Gera a peça padrão "Bolão pronto no balcão" (chamada + botão de ação) de cada loja. Só gera se a loja tem bolão à venda na vitrine (boloes.json).
 // Sem nome de modalidade nem marca CAIXA na arte (Circular CAIXA 1.129).
 // Saída: pecas/bolao_<loja>.jpg e pecas/bolao.json (lido pelo robô Postagem G3 no n8n).
 import { chromium } from "playwright";
@@ -35,8 +35,8 @@ function resumo(unit) {
 
 function legenda(d) {
   return [
-    `Venha ver nossos bolões! Na ${d.nome} tem bolão pronto esperando por você.`,
-    `Peça a sua cota no balcão ou pelo WhatsApp:\n👉 https://wa.me/${d.wa}`,
+    `Bolão pronto na ${d.nome}: mais números no jogo, e você paga só a sua cota.`,
+    `As cotas são limitadas. Reserve a sua pelo WhatsApp 👇\nhttps://wa.me/${d.wa}\nou passe no balcão e peça a sua.`,
     `🛒 Comprando no Marketplace? Use o código da loja: ${d.mkt}`,
     `📍 ${d.end}`,
     "Lotérica credenciada CAIXA. Aposte com responsabilidade. Proibido para menores de 18 anos.",

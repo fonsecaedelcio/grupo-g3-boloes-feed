@@ -1,0 +1,57 @@
+name: Peça padrão de bolões (por loja)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Horários em UTC (Brasília = UTC-3). Quarta e sexta; o robô Postagem G3
+    # pega a peça às 11h50 e publica às 12h. Duas execuções por causa de atraso do GitHub.
+    - cron: "5 13 * * 3,5"   # 10h05
+    - cron: "5 14 * * 3,5"   # 11h05 (repetição, com a vitrine mais recente)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pecas-bolao
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar dependências
+        working-directory: resultados-card
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Gerar as peças com a vitrine atual
+        run: node resultados-card/bolao.mjs
+
+      - name: Publicar as peças
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Grupo G3 Peças"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p /tmp/pecas && cp pecas/bolao* /tmp/pecas/
+          for tentativa in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            rm -f pecas/bolao* && cp /tmp/pecas/* pecas/
+            git add pecas
+            if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+            git commit -m "Peça de bolões $(jq -r .data pecas/bolao.json)"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((tentativa * 5))
+          done
+          exit 1

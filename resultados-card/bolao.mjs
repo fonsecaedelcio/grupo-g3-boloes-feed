@@ -1,4 +1,4 @@
-// Gera a peça padrão "Bolão pronto no balcão" (chamada + botão de ação) de cada loja. Só gera se a loja tem bolão à venda na vitrine (boloes.json).
+// Gera a peça padrão "Bolão pronto no balcão" (conceito "Seu número da sorte não precisa jogar sozinho") de cada loja. Só gera se a loja tem bolão à venda na vitrine (boloes.json).
 // Sem nome de modalidade nem marca CAIXA na arte (Circular CAIXA 1.129).
 // Saída: pecas/bolao_<loja>.jpg e pecas/bolao.json (lido pelo robô Postagem G3 no n8n).
 import { chromium } from "playwright";
@@ -35,8 +35,9 @@ function resumo(unit) {
 
 function legenda(d) {
   return [
-    `Bolão pronto na ${d.nome}: mais números no jogo, mais chances de ganhar, e você paga só a sua cota.`,
-    `As cotas são limitadas. Reserve a sua pelo WhatsApp 👇\nhttps://wa.me/${d.wa}\nou passe no balcão e peça a sua.`,
+    `Seu número da sorte não precisa jogar sozinho. 🍀`,
+    `No bolão da ${d.nome}, ele entra num jogo com muito mais números (mais chances de ganhar), e você paga só a sua cota.`,
+    `As cotas são limitadas. Reserve a sua pelo WhatsApp 👇\nhttps://wa.me/${d.wa}\nou passe no balcão que a gente separa pra você.`,
     `🛒 Comprando no Marketplace? Use o código da loja: ${d.mkt}`,
     `📍 ${d.end}`,
     "Lotérica credenciada CAIXA. Aposte com responsabilidade. Proibido para menores de 18 anos.",

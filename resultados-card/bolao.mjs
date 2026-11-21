@@ -1,4 +1,4 @@
-// Gera a peça padrão "Bolões prontos" de cada loja a partir da vitrine (boloes.json).
+// Gera a peça padrão "Venha ver nossos bolões!" de cada loja. Só gera se a loja tem bolão à venda na vitrine (boloes.json).
 // Sem nome de modalidade nem marca CAIXA na arte (Circular CAIXA 1.129).
 // Saída: pecas/bolao_<loja>.jpg e pecas/bolao.json (lido pelo robô Postagem G3 no n8n).
 import { chromium } from "playwright";
@@ -33,10 +33,10 @@ function resumo(unit) {
   };
 }
 
-function legenda(d, r) {
+function legenda(d) {
   return [
-    `Bolões prontos na ${d.nome}: ${r.qtd} ${r.qtd > 1 ? "bolões" : "bolão"} à venda, com cotas a partir de R$ ${brl(r.preco)}.`,
-    `Peça a sua no balcão ou pelo WhatsApp:\n👉 https://wa.me/${d.wa}`,
+    `Venha ver nossos bolões! Na ${d.nome} tem bolão pronto esperando por você.`,
+    `Peça a sua cota no balcão ou pelo WhatsApp:\n👉 https://wa.me/${d.wa}`,
     `🛒 Comprando no Marketplace? Use o código da loja: ${d.mkt}`,
     `📍 ${d.end}`,
     "Lotérica credenciada CAIXA. Aposte com responsabilidade. Proibido para menores de 18 anos.",
@@ -55,7 +55,7 @@ for (const [slug, d] of Object.entries(LOJAS)) {
   if (!r) { out.lojas[slug] = null; console.log(slug, "sem bolão à venda: não gera"); continue; }
   let html = await readFile(path.join(CARD, `bolao_${slug}.html`), "utf8");
   html = html.replaceAll("__A__", "file://" + path.join(CARD, "assets"))
-    .replace("{{PRECO}}", brl(r.preco)).replace("{{COTAS}}", String(r.cotas)).replace("{{QTD}}", String(r.qtd));
+;
   const tmp = path.join(CARD, `_tmp_${slug}.html`);
   await writeFile(tmp, html);
   await page.goto("file://" + tmp);
@@ -63,7 +63,7 @@ for (const [slug, d] of Object.entries(LOJAS)) {
   await page.waitForTimeout(300);
   const arquivo = `bolao_${slug}.jpg`;
   await page.screenshot({ path: path.join(SAIDA, arquivo), type: "jpeg", quality: 90 });
-  out.lojas[slug] = { arquivo, legenda: legenda(d, r), ...r };
+  out.lojas[slug] = { arquivo, legenda: legenda(d), ...r };
   console.log(slug, JSON.stringify(r));
 }
 await browser.close();

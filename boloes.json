@@ -1,17 +1,21 @@
 {
   "version": 1,
   "source": "CAIXA Loterias",
-  "attemptedAt": "2026-11-21T03:12:22.338Z",
-  "freshUnits": 3,
-  "failedUnits": [],
+  "attemptedAt": "2026-11-21T03:14:06.047Z",
+  "freshUnits": 0,
+  "failedUnits": [
+    "2484",
+    "20665",
+    "13979"
+  ],
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "attemptedAt": "2026-11-21T03:12:22.338Z",
+      "attemptedAt": "2026-11-21T03:14:06.047Z",
       "fetchedAt": "2026-11-21T03:12:25.962Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODI2OTEwMDg7MTA3Nzk7",
@@ -351,7 +355,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 403"
     },
     "13979": {
       "id": "13979",
@@ -359,7 +365,7 @@
       "name": "Lotérica Tomazini",
       "attemptedAt": "2026-11-21T03:12:26.387Z",
       "fetchedAt": "2026-11-21T03:12:27.797Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs3MzU2ODUzMzE7MTA3ODA7",
@@ -816,7 +822,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     },
     "20665": {
       "id": "20665",
@@ -824,7 +832,7 @@
       "name": "Praça XI · Shiaku",
       "attemptedAt": "2026-11-21T03:12:25.962Z",
       "fetchedAt": "2026-11-21T03:12:26.387Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs1ODMxNTM2MDE7MTA3Nzk7",
@@ -930,9 +938,11 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     }
   },
-  "complete": true,
-  "generatedAt": "2026-11-21T03:12:27.797Z"
+  "complete": false,
+  "generatedAt": "2026-11-21T03:14:06.477Z"
 }

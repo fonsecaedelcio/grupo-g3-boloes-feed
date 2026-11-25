@@ -1,7 +1,100 @@
 {
-  "data": "23/11/2026",
-  "titulo": "segunda-feira, 23/11",
-  "gerado": "2026-11-24T22:48:16.803Z",
-  "jogos": [],
-  "lojas": {}
+  "data": "24/11/2026",
+  "titulo": "terça-feira, 24/11",
+  "gerado": "2026-11-25T18:39:03.208Z",
+  "jogos": [
+    {
+      "jogo": "megasena",
+      "concurso": 3090,
+      "dezenas": [
+        "10",
+        "14",
+        "27",
+        "28",
+        "47",
+        "57"
+      ],
+      "extra": "",
+      "acumulou": true,
+      "proximo": 75000000,
+      "ganhadores": 0,
+      "premio": 0
+    },
+    {
+      "jogo": "lotofacil",
+      "concurso": 3837,
+      "dezenas": [
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "10",
+        "11",
+        "14",
+        "16",
+        "17",
+        "20",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "extra": "",
+      "acumulou": false,
+      "proximo": 2000000,
+      "ganhadores": 1,
+      "premio": 3755409.03
+    },
+    {
+      "jogo": "diadesorte",
+      "concurso": 1355,
+      "dezenas": [
+        "02",
+        "03",
+        "08",
+        "13",
+        "22",
+        "27",
+        "28"
+      ],
+      "extra": "Mês: Janeiro",
+      "acumulou": false,
+      "proximo": 100000,
+      "ganhadores": 2,
+      "premio": 1478401.24
+    },
+    {
+      "jogo": "timemania",
+      "concurso": 2472,
+      "dezenas": [
+        "19",
+        "44",
+        "46",
+        "55",
+        "65",
+        "67",
+        "79"
+      ],
+      "extra": "Time: CASCAVEL/PR",
+      "acumulou": true,
+      "proximo": 30500000,
+      "ganhadores": 0,
+      "premio": 0
+    }
+  ],
+  "lojas": {
+    "tomazini": {
+      "arquivo": "resultados/tomazini.jpg",
+      "legenda": "🎯 Resultados de terça-feira, 24/11\nMega-Sena acumulou: R$ 75.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3090): acumulou! Estimativa do próximo concurso: R$ 75.000.000,00\n• Lotofácil (concurso 3837): saiu! 1 aposta ganhadora, R$ 3.755.409,03\n• Dia de Sorte (concurso 1355): saiu! 2 apostas ganhadoras, R$ 1.478.401,24\n• Timemania (concurso 2472): acumulou! Estimativa do próximo concurso: R$ 30.500.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511978962327\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 013979\n\n📍 Av. Boturussu, 2074 · Centro de Ermelino Matarazzo\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+    },
+    "praca-xi": {
+      "arquivo": "resultados/praca-xi.jpg",
+      "legenda": "🎯 Resultados de terça-feira, 24/11\nMega-Sena acumulou: R$ 75.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3090): acumulou! Estimativa do próximo concurso: R$ 75.000.000,00\n• Lotofácil (concurso 3837): saiu! 1 aposta ganhadora, R$ 3.755.409,03\n• Dia de Sorte (concurso 1355): saiu! 2 apostas ganhadoras, R$ 1.478.401,24\n• Timemania (concurso 2472): acumulou! Estimativa do próximo concurso: R$ 30.500.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511960480263\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 020665\n\n📍 Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+    },
+    "we": {
+      "arquivo": "resultados/we.jpg",
+      "legenda": "🎯 Resultados de terça-feira, 24/11\nMega-Sena acumulou: R$ 75.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3090): acumulou! Estimativa do próximo concurso: R$ 75.000.000,00\n• Lotofácil (concurso 3837): saiu! 1 aposta ganhadora, R$ 3.755.409,03\n• Dia de Sorte (concurso 1355): saiu! 2 apostas ganhadoras, R$ 1.478.401,24\n• Timemania (concurso 2472): acumulou! Estimativa do próximo concurso: R$ 30.500.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511976589981\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 002484\n\n📍 Estrada do Lageado Velho, 1013 · Guaianazes\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+    }
+  }
 }

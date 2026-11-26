@@ -1,84 +1,138 @@
 {
-  "data": "24/11/2026",
-  "titulo": "terça-feira, 24/11",
-  "gerado": "2026-11-25T22:00:37.916Z",
+  "data": "25/11/2026",
+  "titulo": "quarta-feira, 25/11",
+  "gerado": "2026-11-26T18:25:04.427Z",
   "jogos": [
     {
-      "jogo": "megasena",
-      "concurso": 3090,
+      "jogo": "maismilionaria",
+      "concurso": 410,
       "dezenas": [
+        "07",
         "10",
-        "14",
-        "27",
-        "28",
-        "47",
-        "57"
+        "17",
+        "19",
+        "24",
+        "39"
       ],
-      "extra": "",
+      "extra": "Trevos: 2 e 6",
       "acumulou": true,
-      "proximo": 75000000,
+      "proximo": 119000000,
       "ganhadores": 0,
       "premio": 0
     },
     {
       "jogo": "lotofacil",
-      "concurso": 3837,
+      "concurso": 3838,
       "dezenas": [
-        "03",
-        "04",
+        "01",
+        "02",
         "05",
         "07",
         "08",
         "10",
         "11",
-        "14",
+        "12",
+        "13",
+        "15",
         "16",
         "17",
         "20",
-        "22",
         "23",
-        "24",
         "25"
       ],
       "extra": "",
       "acumulou": false,
       "proximo": 2000000,
-      "ganhadores": 1,
-      "premio": 3755409.03
+      "ganhadores": 6,
+      "premio": 204556.17
     },
     {
       "jogo": "diadesorte",
-      "concurso": 1355,
+      "concurso": 1356,
       "dezenas": [
         "02",
-        "03",
-        "08",
-        "13",
+        "07",
+        "14",
+        "19",
         "22",
-        "27",
+        "25",
         "28"
       ],
-      "extra": "Mês: Janeiro",
+      "extra": "Mês: Fevereiro",
       "acumulou": false,
       "proximo": 100000,
-      "ganhadores": 2,
-      "premio": 1478401.24
+      "ganhadores": 5,
+      "premio": 23325.03
     },
     {
-      "jogo": "timemania",
-      "concurso": 2472,
+      "jogo": "lotomania",
+      "concurso": 3003,
       "dezenas": [
-        "19",
-        "44",
-        "46",
-        "55",
-        "65",
+        "15",
+        "16",
+        "20",
+        "21",
+        "28",
+        "35",
+        "36",
+        "51",
+        "56",
+        "58",
+        "64",
+        "66",
         "67",
-        "79"
+        "68",
+        "71",
+        "72",
+        "79",
+        "90",
+        "92",
+        "98"
       ],
-      "extra": "Time: CASCAVEL/PR",
+      "extra": "",
       "acumulou": true,
-      "proximo": 30500000,
+      "proximo": 3400000,
+      "ganhadores": 0,
+      "premio": 0
+    },
+    {
+      "jogo": "duplasena",
+      "concurso": 3036,
+      "dezenas": [
+        "08",
+        "10",
+        "13",
+        "26",
+        "40",
+        "43",
+        "04",
+        "09",
+        "15",
+        "18",
+        "28",
+        "49"
+      ],
+      "extra": "1º e 2º sorteio",
+      "acumulou": true,
+      "proximo": 15700000,
+      "ganhadores": 0,
+      "premio": 0
+    },
+    {
+      "jogo": "supersete",
+      "concurso": 926,
+      "dezenas": [
+        "2",
+        "0",
+        "6",
+        "3",
+        "6",
+        "9",
+        "8"
+      ],
+      "extra": "",
+      "acumulou": true,
+      "proximo": 750000,
       "ganhadores": 0,
       "premio": 0
     }
@@ -86,15 +140,15 @@
   "lojas": {
     "tomazini": {
       "arquivo": "resultados/tomazini.jpg",
-      "legenda": "🎯 Resultados de terça-feira, 24/11\nMega-Sena acumulou: R$ 75.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3090): acumulou! Estimativa do próximo concurso: R$ 75.000.000,00\n• Lotofácil (concurso 3837): saiu! 1 aposta ganhadora, R$ 3.755.409,03\n• Dia de Sorte (concurso 1355): saiu! 2 apostas ganhadoras, R$ 1.478.401,24\n• Timemania (concurso 2472): acumulou! Estimativa do próximo concurso: R$ 30.500.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511978962327\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 013979\n\n📍 Av. Boturussu, 2074 · Centro de Ermelino Matarazzo\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+      "legenda": "🎯 Resultados de quarta-feira, 25/11\n+Milionária acumulou: R$ 119.000.000,00 estimados para o próximo concurso!\n\n• +Milionária (concurso 410): acumulou! Estimativa do próximo concurso: R$ 119.000.000,00\n• Lotofácil (concurso 3838): saiu! 6 apostas ganhadoras, R$ 204.556,17\n• Dia de Sorte (concurso 1356): saiu! 5 apostas ganhadoras, R$ 23.325,03\n• Lotomania (concurso 3003): acumulou! Estimativa do próximo concurso: R$ 3.400.000,00\n• Dupla Sena (concurso 3036): acumulou! Estimativa do próximo concurso: R$ 15.700.000,00\n• Super Sete (concurso 926): acumulou! Estimativa do próximo concurso: R$ 750.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511978962327\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 013979\n\n📍 Av. Boturussu, 2074 · Centro de Ermelino Matarazzo\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
     },
     "praca-xi": {
       "arquivo": "resultados/praca-xi.jpg",
-      "legenda": "🎯 Resultados de terça-feira, 24/11\nMega-Sena acumulou: R$ 75.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3090): acumulou! Estimativa do próximo concurso: R$ 75.000.000,00\n• Lotofácil (concurso 3837): saiu! 1 aposta ganhadora, R$ 3.755.409,03\n• Dia de Sorte (concurso 1355): saiu! 2 apostas ganhadoras, R$ 1.478.401,24\n• Timemania (concurso 2472): acumulou! Estimativa do próximo concurso: R$ 30.500.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511960480263\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 020665\n\n📍 Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+      "legenda": "🎯 Resultados de quarta-feira, 25/11\n+Milionária acumulou: R$ 119.000.000,00 estimados para o próximo concurso!\n\n• +Milionária (concurso 410): acumulou! Estimativa do próximo concurso: R$ 119.000.000,00\n• Lotofácil (concurso 3838): saiu! 6 apostas ganhadoras, R$ 204.556,17\n• Dia de Sorte (concurso 1356): saiu! 5 apostas ganhadoras, R$ 23.325,03\n• Lotomania (concurso 3003): acumulou! Estimativa do próximo concurso: R$ 3.400.000,00\n• Dupla Sena (concurso 3036): acumulou! Estimativa do próximo concurso: R$ 15.700.000,00\n• Super Sete (concurso 926): acumulou! Estimativa do próximo concurso: R$ 750.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511960480263\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 020665\n\n📍 Praça Rev. Mattathias Gomes dos Santos, 8 · Praça 11\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
     },
     "we": {
       "arquivo": "resultados/we.jpg",
-      "legenda": "🎯 Resultados de terça-feira, 24/11\nMega-Sena acumulou: R$ 75.000.000,00 estimados para o próximo concurso!\n\n• Mega-Sena (concurso 3090): acumulou! Estimativa do próximo concurso: R$ 75.000.000,00\n• Lotofácil (concurso 3837): saiu! 1 aposta ganhadora, R$ 3.755.409,03\n• Dia de Sorte (concurso 1355): saiu! 2 apostas ganhadoras, R$ 1.478.401,24\n• Timemania (concurso 2472): acumulou! Estimativa do próximo concurso: R$ 30.500.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511976589981\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 002484\n\n📍 Estrada do Lageado Velho, 1013 · Guaianazes\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
+      "legenda": "🎯 Resultados de quarta-feira, 25/11\n+Milionária acumulou: R$ 119.000.000,00 estimados para o próximo concurso!\n\n• +Milionária (concurso 410): acumulou! Estimativa do próximo concurso: R$ 119.000.000,00\n• Lotofácil (concurso 3838): saiu! 6 apostas ganhadoras, R$ 204.556,17\n• Dia de Sorte (concurso 1356): saiu! 5 apostas ganhadoras, R$ 23.325,03\n• Lotomania (concurso 3003): acumulou! Estimativa do próximo concurso: R$ 3.400.000,00\n• Dupla Sena (concurso 3036): acumulou! Estimativa do próximo concurso: R$ 15.700.000,00\n• Super Sete (concurso 926): acumulou! Estimativa do próximo concurso: R$ 750.000,00\n\nFaça seu jogo ou garanta sua cota de bolão:\n👉 WhatsApp: https://wa.me/5511976589981\n👉 Bolões online: grupog3lotericas.com.br\n🛒 Comprando no Marketplace? Use o código da loja: 002484\n\n📍 Estrada do Lageado Velho, 1013 · Guaianazes\nResultados oficiais; prêmios estimados. Apostar é para maiores de 18 anos."
     }
   }
 }

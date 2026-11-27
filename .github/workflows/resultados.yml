@@ -20,6 +20,13 @@ on:
     - cron: "19 16 * * 0"    # 13h19
     - cron: "49 16 * * 0"    # 13h49
     - cron: "29 17 * * 0"    # 14h29
+  # Em 25, 26 e 27/11 o agendador do GitHub só rodou depois das 15h e o card saiu
+  # à tarde. O PC envia a vitrine (boloes.json) a cada 10 min; esse envio também
+  # gera o card enquanto o do dia não existir (ter–sáb 5h–12h; dom 11h15–15h).
+  push:
+    branches: [main]
+    paths:
+      - boloes.json
 
 permissions:
   contents: write
@@ -36,23 +43,49 @@ jobs:
       - name: Baixar o repositório
         uses: actions/checkout@v4
 
+      - name: Conferir se falta o card do dia
+        id: guard
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" != "push" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          dow=$(TZ=America/Sao_Paulo date +%u)
+          hhmm=$(TZ=America/Sao_Paulo date +%H%M)
+          if [ "$dow" = "7" ]; then
+            alvo=$(TZ=America/Sao_Paulo date +%d/%m/%Y); ini=1115; fim=1500
+          else
+            alvo=$(TZ=America/Sao_Paulo date -d "yesterday" +%d/%m/%Y); ini=500; fim=1200
+          fi
+          data=$(jq -r '.data // ""' resultados/hoje.json 2>/dev/null || echo "")
+          njogos=$(jq -r '(.jogos // []) | length' resultados/hoje.json 2>/dev/null || echo 0)
+          go=false
+          if [ "$dow" != "1" ] && [ "$hhmm" -ge "$ini" ] && [ "$hhmm" -le "$fim" ]; then
+            if [ "$data" != "$alvo" ] || [ "$njogos" = "0" ]; then go=true; fi
+          fi
+          echo "dia=$dow hora=$hhmm alvo=$alvo card=$data jogos=$njogos -> $go"
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+
       - name: Preparar Node.js
+        if: steps.guard.outputs.go == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
       - name: Instalar dependências
+        if: steps.guard.outputs.go == 'true'
         working-directory: resultados-card
         run: |
           npm install --no-audit --no-fund
           npx playwright install --with-deps chromium
 
       - name: Gerar os cards
+        if: steps.guard.outputs.go == 'true'
         env:
           DATA_ALVO: ${{ github.event.inputs.data }}
         run: node resultados-card/render.mjs
 
       - name: Publicar os cards
+        if: steps.guard.outputs.go == 'true'
         shell: bash
         run: |
           set -euo pipefail

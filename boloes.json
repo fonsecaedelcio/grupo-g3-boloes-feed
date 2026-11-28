@@ -1,18 +1,21 @@
 {
   "version": 1,
   "source": "CAIXA Loterias",
-  "collector": "pc-n8n",
-  "attemptedAt": "2026-11-28T10:00:01.276Z",
-  "freshUnits": 3,
-  "failedUnits": [],
+  "attemptedAt": "2026-11-28T10:00:33.589Z",
+  "freshUnits": 0,
+  "failedUnits": [
+    "2484",
+    "20665",
+    "13979"
+  ],
   "units": {
     "2484": {
       "id": "2484",
       "slug": "we",
       "name": "Casa Lotérica WE",
-      "attemptedAt": "2026-11-28T10:00:01.276Z",
+      "attemptedAt": "2026-11-28T10:00:33.589Z",
       "fetchedAt": "2026-11-28T10:00:01.655Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs2MDc3NzgyOTU7MTA3OTU7",
@@ -287,7 +290,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": false,
+      "error": "fonte oficial respondeu HTTP 403"
     },
     "13979": {
       "id": "13979",
@@ -295,7 +300,7 @@
       "name": "Lotérica Tomazini",
       "attemptedAt": "2026-11-28T10:00:02.000Z",
       "fetchedAt": "2026-11-28T10:00:03.747Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs3MzU2ODUzMDE7MTA3ODA7",
@@ -843,7 +848,9 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     },
     "20665": {
       "id": "20665",
@@ -851,7 +858,7 @@
       "name": "Praça XI · Shiaku",
       "attemptedAt": "2026-11-28T10:00:01.655Z",
       "fetchedAt": "2026-11-28T10:00:02.000Z",
-      "stale": false,
+      "stale": true,
       "offers": [
         {
           "id": "MjAyNjsxMTs2ODkyMzI0MDE7MTA3ODA7",
@@ -1061,9 +1068,11 @@
           "cidade": "SAO PAULO",
           "uf": "SP"
         }
-      ]
+      ],
+      "skipped": true,
+      "error": "consulta não executada após HTTP 403 na mesma origem"
     }
   },
-  "complete": true,
-  "generatedAt": "2026-11-28T10:00:03.747Z"
+  "complete": false,
+  "generatedAt": "2026-11-28T10:00:34.021Z"
 }

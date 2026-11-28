@@ -11,6 +11,7 @@ const DIR = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(DIR, "..");
 const OUT = resolve(ROOT, "resultados");
 const API = "https://grupog3lotericas.com.br/api/resultado/";
+const CAIXA = "https://servicebus2.caixa.gov.br/portaldeloterias/api/";
 const FIXTURES = process.env.RESULT_FIXTURES || "";
 
 const JOGOS = {
@@ -46,6 +47,34 @@ function alvo() {
 }
 const fmt = (d) => `${String(d.getUTCDate()).padStart(2, "0")}/${String(d.getUTCMonth() + 1).padStart(2, "0")}/${d.getUTCFullYear()}`;
 const cheio = (v) => "R$ " + Number(v).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+// Reserva: API oficial da CAIXA, convertida para o formato do site.
+// Usada só quando o site não tem o resultado da data alvo (em 27/11 o site
+// ficou parado em 26/11 e a Quina em 19/11, e o card do dia não saiu).
+async function buscarCaixa(jogo) {
+  for (let t = 1; t <= 2; t++) {
+    try {
+      const r = await fetch(CAIXA + jogo, { headers: { accept: "application/json", "user-agent": "Mozilla/5.0" } });
+      if (r.ok) {
+        const c = await r.json();
+        const tc = (c.nomeTimeCoracaoMesSorte || "").replace(/\u0000/g, "").trim();
+        return {
+          concurso: c.numero, data: c.dataApuracao,
+          dezenas: [...(c.listaDezenas || []), ...(c.listaDezenasSegundoSorteio || [])],
+          trevos: c.trevosSorteados || [],
+          timeCoracao: jogo === "timemania" ? tc || null : null,
+          mesSorte: jogo === "diadesorte" ? tc || null : null,
+          premiacoes: (c.listaRateioPremio || []).map((p) => ({ faixa: p.faixa, ganhadores: p.numeroDeGanhadores, valorPremio: p.valorPremio })),
+          acumulou: !!c.acumulado,
+          valorEstimadoProximoConcurso: c.valorEstimadoProximoConcurso,
+        };
+      }
+      console.log(`CAIXA ${jogo}: HTTP ${r.status}`);
+    } catch (e) { console.log(`CAIXA ${jogo}: ${e.message}`); }
+    await new Promise((s) => setTimeout(s, 3000 * t));
+  }
+  return null;
+}
 
 async function buscar(jogo) {
   if (FIXTURES) return JSON.parse(await readFile(resolve(FIXTURES, `${jogo}.json`), "utf8").catch(() => "null"));
@@ -170,7 +199,11 @@ async function main() {
   const titulo = `${DIAS[dt.getUTCDay()]}, ${data.slice(0, 5)}`;
   const jogos = [];
   for (const jogo of Object.keys(JOGOS)) {
-    const j = await buscar(jogo);
+    let j = await buscar(jogo);
+    if (!FIXTURES && (!j || j.data !== data)) {
+      const c = await buscarCaixa(jogo);
+      if (c && c.data === data) { j = c; console.log(`${jogo}: site sem ${data}, usado resultado da CAIXA`); }
+    }
     if (j && j.data === data && (j.dezenas || []).length) jogos.push(normaliza(jogo, j));
   }
   await mkdir(OUT, { recursive: true });
